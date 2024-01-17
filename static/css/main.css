@@ -1,0 +1,137 @@
+* {
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+    color: #293745;
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    color: #293745;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+input {
+    color: #6559FF;
+}
+
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  background-color: #6559FF;
+  border: 0.1rem solid #6559FF;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 3.8rem;
+  letter-spacing: .1rem;
+  line-height: 3.8rem;
+  padding: 0 3.0rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.custom-container {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cards-container {
+    padding-top: 20px;
+}
+
+.input-group {
+    border-radius: 8px;
+    background-color: #F3F6FB;
+    max-width: 75%;
+    padding: 8px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.button {
+    vertical-align: baseline;
+    background-color: #6559FF;
+    border-color: #6559FF;
+}
+.button.button-outline {
+    color: #6559FF;
+}
+.button-outline {
+    color: #6559FF;
+}
+input[type='submit'].button-outline {
+    color: #6559FF;
+}
+input[type='submit'] {
+    border-color: #6559FF;
+}
+
+/* CARDS */
+.card {
+/* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 24px; 
+    border-radius: 8px;
+    background-color: #F3F6FB;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.card-container {
+    padding: 24px 24px;
+}
+
+.codeblock {
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.file-item {
+    font-family: monospace;
+    font-size: 14px;
+}
+
+
+/* UNDERLINE ANIMATION */
+span {
+    font-size: inherit;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+}
+  
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 8px;
+    bottom: 0;
+    left: 0;
+    background-color: #6559FF;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    }
+  
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+

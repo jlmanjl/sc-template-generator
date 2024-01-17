@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/emojione/assets/4.0/png/128/1f30e.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  </head>
+  <body>
+
+    <div class="container custom-container">
+    <h1><span class="heading hover-underline-animation">Email Template</span> Creator</h1>
+      <p>This is for email template creation duh</p>
+
+      <form method="post" action="/download">
+          <!-- <h3>Primary Block</h3>
+          <label><input type="checkbox" name="component" value="{{ p1_small }}" > P1 SMALL</label>
+          <label><input type="checkbox" name="component" value="{{ p1_wide }}" checked> P1 WIDE</label> -->
+
+          <!-- <h3>Primary Block</h3> -->
+          <label for="primary-select">Select Primary Block</label>
+          <select name="component" id="primary-select">
+            <option value="">None</option>
+            <option value="{{ p1_small }}">P1 SMALL</option>
+            <option value="{{ p1_wide }}">P1 WIDE</option>
+          </select>
+
+          <hr>
+
+          <div  class="row">
+            <div class="column">
+              <!-- <h3>Secondary Block #1</h3> -->
+              <label for="secondary-select">Select Secondary Block #1</label>
+              <select name="component" id="secondary-select">
+                <option value="">None</option>
+                <option value="{{ s1 }}">S1 - SINGLE COLUMN</option>
+                <option value="{{ s2 }}">S2 - 2-COL IMAGE LARGE</option>
+                <option value="{{ s3 }}">S3 - 2-COL IMAGE SMALL</option>
+                <option value="{{ s4 }}">S4 - GENERAL CTA BOX</option>
+                <option value="{{ s5 }}">S5 - CASE STUDY</option>
+                <option value="{{ s6 }}">S6 - PRODUCT CARDS</option>
+                <option value="{{ s7 }}">S7 - LOGO STRIP BLOCK</option>
+              </select>
+
+              <!-- <h3>Secondary Block #1</h3>
+              <label><input type="checkbox" name="component" value="{{ s1 }}" > S1 SECONDARY - SINGLE COLUMN</label>
+              <label><input type="checkbox" name="component" value="{{ s2 }}" > S2 SECONDARY - 2-COL IMAGES LARGE</label>
+              <label><input type="checkbox" name="component" value="{{ s3 }}" > S3 SECONDARY - 2-COL IMAGES SMALL</label>
+              <label><input type="checkbox" name="component" value="{{ s4 }}" > S4 SECONDARY - GENERAL CTA BOX</label>
+              <label><input type="checkbox" name="component" value="{{ s5 }}" > S5 SECONDARY - CASE STUDY</label>
+              <label><input type="checkbox" name="component" value="{{ s6 }}" > S6 SECONDARY: PRODUCT CARDS</label>
+              <label><input type="checkbox" name="component" value="{{ s7 }}" > S7 SECONDARY - LOGO STRIP BLOCK</label> -->
+            </div>
+
+            <div class="column">
+              <!-- <h3>Secondary Block #2</h3> -->
+              <label for="secondary-select">Select Secondary Block #2</label>
+              <select name="component" id="secondary-select">
+                <option value="">None</option>
+                <option value="{{ s1 }}">S1 - SINGLE COLUMN</option>
+                <option value="{{ s2 }}">S2 - 2-COL IMAGE LARGE</option>
+                <option value="{{ s3 }}">S3 - 2-COL IMAGE SMALL</option>
+                <option value="{{ s4 }}">S4 - GENERAL CTA BOX</option>
+                <option value="{{ s5 }}">S5 - CASE STUDY</option>
+                <option value="{{ s6 }}">S6 - PRODUCT CARDS</option>
+                <option value="{{ s7 }}">S7 - LOGO STRIP BLOCK</option>
+              </select>
+            </div>
+
+            <div class="column">
+              <!-- <h3>Secondary Block #3</h3> -->
+              <label for="secondary-select">Select Secondary Block #3</label>
+              <select name="component" id="secondary-select">
+                <option value="">None</option>
+                <option value="{{ s1 }}">S1 - SINGLE COLUMN</option>
+                <option value="{{ s2 }}">S2 - 2-COL IMAGE LARGE</option>
+                <option value="{{ s3 }}">S3 - 2-COL IMAGE SMALL</option>
+                <option value="{{ s4 }}">S4 - GENERAL CTA BOX</option>
+                <option value="{{ s5 }}">S5 - CASE STUDY</option>
+                <option value="{{ s6 }}">S6 - PRODUCT CARDS</option>
+                <option value="{{ s7 }}">S7 - LOGO STRIP BLOCK</option>
+              </select>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="row">
+            <div class="column">
+              <!-- <h3>Tertiary Block #1</h3> -->
+              <label for="tertiary-select">Select Tertiary Block #1</label>
+              <select name="component" id="tertiary-select">
+                <option value="">None</option>
+                <option value="{{ t2 }}">T2 - SINGLE CTA MIDDLE</option>
+                <option value="{{ t3 }}">T3 - PL TEMPLATES</option>
+                <option value="{{ t_csrequest }}">CS REQUEST</option>
+                <option value="{{ t_sccertified }}">SC CERTIFIED</option>
+                <option value="{{ t_inbounddemo }}">INBOUND DEMO</option>
+                <option value="{{ t_livewebinars }}">LIVE WEBINARS</option>
+                <option value="{{ t_integrations }}">INTEGRATIONS</option>
+                <option value="{{ t_freeseats }}">FREE SEATS</option>
+              </select>
+            </div>
+
+            <div class="column">
+              <!-- <h3>Tertiary Block #1</h3> -->
+              <label for="tertiary-select">Select Tertiary Block #2</label>
+              <select name="component" id="tertiary-select">
+                <option value="">None</option>
+                <option value="{{ t2 }}">T2 - SINGLE CTA MIDDLE</option>
+                <option value="{{ t3 }}">T3 - PL TEMPLATES</option>
+                <option value="{{ t_csrequest }}">CS REQUEST</option>
+                <option value="{{ t_sccertified }}">SC CERTIFIED</option>
+                <option value="{{ t_inbounddemo }}">INBOUND DEMO</option>
+                <option value="{{ t_livewebinars }}">LIVE WEBINARS</option>
+                <option value="{{ t_integrations }}">INTEGRATIONS</option>
+                <option value="{{ t_freeseats }}">FREE SEATS</option>
+              </select>
+            </div>
+
+            <div class="column">
+              <!-- <h3>Tertiary Block #1</h3> -->
+              <label for="tertiary-select">Select Tertiary Block #3</label>
+              <select name="component" id="tertiary-select">
+                <option value="">None</option>
+                <option value="{{ t2 }}">T2 - SINGLE CTA MIDDLE</option>
+                <option value="{{ t3 }}">T3 - PL TEMPLATES</option>
+                <option value="{{ t_csrequest }}">CS REQUEST</option>
+                <option value="{{ t_sccertified }}">SC CERTIFIED</option>
+                <option value="{{ t_inbounddemo }}">INBOUND DEMO</option>
+                <option value="{{ t_livewebinars }}">LIVE WEBINARS</option>
+                <option value="{{ t_integrations }}">INTEGRATIONS</option>
+                <option value="{{ t_freeseats }}">FREE SEATS</option>
+              </select>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="row">
+            <div class="column">
+              <input type="submit" value="Download">
+            </div>
+          </div>
+      </form>
+    </div>
+
+	<script src="index.js"></script>
+  </body>
+</html>
