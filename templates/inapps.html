@@ -1,0 +1,299 @@
+{% extends "layout.html" %}
+
+    {% block content %}
+
+    <div class="container custom-container">
+    <h1><span class="heading hover-underline-animation">In-App Combo Template</span> Creator</h1>
+      <p>This is for in-app template creation duh</p>
+
+      <form method="post" action="/inapp-download">
+          <!-- <h3>Primary Block</h3>
+          <label><input type="checkbox" name="component" value="{{ p1_small }}" > P1 SMALL</label>
+          <label><input type="checkbox" name="component" value="{{ p1_wide }}" checked> P1 WIDE</label> -->
+          
+          <div class="row">
+            <div class="column">
+              <!-- <h3>Primary Block</h3> -->
+              <label for="primary-select">Select In-App Packages</label>
+              <label><input type="checkbox" name="top" value="{{ tt }}" >TOOLTIPS PACKAGE</label>
+              <label><input type="checkbox" name="top" value="{{ us }}" >USER SCORING PACKAGE</label>
+              <label><input type="checkbox" name="top" value="{{ swipe }}" >SWIPER PACKAGE</label>
+            </div>
+          </div>
+
+          <hr>
+
+          <div  class="row">
+            <div class="column">
+              <!-- <h3>Secondary Block #1</h3> -->
+              <label for="secondary-select">Select Slide #1</label>
+              <select name="slide" id="secondary-select">
+                <option value="">None</option>
+                <option value="{{ w1 }}">W1: STATIC IMAGE</option>
+                <option value="{{ w1_tooltips }}">W1: STATIC IMAGE (TOOLTIPS LAUNCHER)</option>
+                <option value="{{ w2 }}">W2 INLINE VIDEO</option>
+                <option value="{{ w41 }}">W4.1 EMBEDDED VIDEO</option>
+                <option value="{{ w42 }}">W4.2 EMBEDDED VIDEO</option>
+                <option value="{{ w5 }}">W5: VERTICAL SCROLLER</option>
+                <option value="{{ w61 }}">W6.1 USER SELECT</option>
+                <option value="{{ w62 }}">W6.2 USER SELECT CENTRALISED</option>
+                <option value="{{ w63 }}">W6.3 USER SELECT INLINE</option>
+                <option value="{{ w64 }}">W6.4 USER SELECT PL TEMPLATES (1-COL)</option>
+                <option value="{{ w65 }}">W6.5 USER SELECT NO ICONS</option>
+                <option value="{{ w67 }}">W6.7 USER SELECT PL TEMPLATES (2-COL)</option>
+                <option value="{{ w7 }}">W7 QR CODE</option>
+                <option value="{{ w81 }}">W8.1 ACCORDIAN</option>
+                <option value="{{ w82  }}">W8.2 CARD SWIPER</option>
+                <option value="{{ w83 }}">W8.3 CARD SCROLLER</option>
+                <option value="{{ w91 }}">W9.1 NPS SCORE 1-10</option>
+                <option value="{{ w92 }}">W9.2 CSAT SCORE 5-STAR</option>
+                <option value="{{ w101 }}">W10.1 USER SCORE</option>
+                <option value="{{ w111 }}">W11.1: MOBILE BANNER</option>
+                <option value="{{ w112 }}">W11.2: MOBILE BANNER</option>
+              </select>
+            </div>
+            <div class="column">
+              <!-- <h3>Secondary Block #1</h3> -->
+              <label for="secondary-select">Select Slide #2</label>
+              <select name="slide" id="secondary-select">
+                <option value="">None</option>
+                <option value="{{ w1 }}">W1: STATIC IMAGE</option>
+                <option value="{{ w1_tooltips }}">W1: STATIC IMAGE (TOOLTIPS LAUNCHER)</option>
+                <option value="{{ w2 }}">W2 INLINE VIDEO</option>
+                <option value="{{ w41 }}">W4.1 EMBEDDED VIDEO</option>
+                <option value="{{ w42 }}">W4.2 EMBEDDED VIDEO</option>
+                <option value="{{ w5 }}">W5: VERTICAL SCROLLER</option>
+                <option value="{{ w61 }}">W6.1 USER SELECT</option>
+                <option value="{{ w62 }}">W6.2 USER SELECT CENTRALISED</option>
+                <option value="{{ w63 }}">W6.3 USER SELECT INLINE</option>
+                <option value="{{ w64 }}">W6.4 USER SELECT PL TEMPLATES (1-COL)</option>
+                <option value="{{ w65 }}">W6.5 USER SELECT NO ICONS</option>
+                <option value="{{ w67 }}">W6.7 USER SELECT PL TEMPLATES (2-COL)</option>
+                <option value="{{ w7 }}">W7 QR CODE</option>
+                <option value="{{ w81 }}">W8.1 ACCORDIAN</option>
+                <option value="{{ w82  }}">W8.2 CARD SWIPER</option>
+                <option value="{{ w83 }}">W8.3 CARD SCROLLER</option>
+                <option value="{{ w91 }}">W9.1 NPS SCORE 1-10</option>
+                <option value="{{ w92 }}">W9.2 CSAT SCORE 5-STAR</option>
+                <option value="{{ w101 }}">W10.1 USER SCORE</option>
+                <option value="{{ w111 }}">W11.1: MOBILE BANNER</option>
+                <option value="{{ w112 }}">W11.2: MOBILE BANNER</option>
+              </select>
+            </div>
+            <div class="column">
+              <!-- <h3>Secondary Block #1</h3> -->
+              <label for="secondary-select">Select Slide #3</label>
+              <select name="slide" id="secondary-select">
+                <option value="">None</option>
+                <option value="{{ w1 }}">W1: STATIC IMAGE</option>
+                <option value="{{ w1_tooltips }}">W1: STATIC IMAGE (TOOLTIPS LAUNCHER)</option>
+                <option value="{{ w2 }}">W2 INLINE VIDEO</option>
+                <option value="{{ w41 }}">W4.1 EMBEDDED VIDEO</option>
+                <option value="{{ w42 }}">W4.2 EMBEDDED VIDEO</option>
+                <option value="{{ w5 }}">W5: VERTICAL SCROLLER</option>
+                <option value="{{ w61 }}">W6.1 USER SELECT</option>
+                <option value="{{ w62 }}">W6.2 USER SELECT CENTRALISED</option>
+                <option value="{{ w63 }}">W6.3 USER SELECT INLINE</option>
+                <option value="{{ w64 }}">W6.4 USER SELECT PL TEMPLATES (1-COL)</option>
+                <option value="{{ w65 }}">W6.5 USER SELECT NO ICONS</option>
+                <option value="{{ w67 }}">W6.7 USER SELECT PL TEMPLATES (2-COL)</option>
+                <option value="{{ w7 }}">W7 QR CODE</option>
+                <option value="{{ w81 }}">W8.1 ACCORDIAN</option>
+                <option value="{{ w82  }}">W8.2 CARD SWIPER</option>
+                <option value="{{ w83 }}">W8.3 CARD SCROLLER</option>
+                <option value="{{ w91 }}">W9.1 NPS SCORE 1-10</option>
+                <option value="{{ w92 }}">W9.2 CSAT SCORE 5-STAR</option>
+                <option value="{{ w101 }}">W10.1 USER SCORE</option>
+                <option value="{{ w111 }}">W11.1: MOBILE BANNER</option>
+                <option value="{{ w112 }}">W11.2: MOBILE BANNER</option>
+              </select>
+            </div>
+          </div>
+
+          <div  class="row">
+            <div class="column">
+              <!-- <h3>Secondary Block #1</h3> -->
+              <label for="secondary-select">Select Slide #4</label>
+              <select name="slide" id="secondary-select">
+                <option value="">None</option>
+                <option value="{{ w1 }}">W1: STATIC IMAGE</option>
+                <option value="{{ w1_tooltips }}">W1: STATIC IMAGE (TOOLTIPS LAUNCHER)</option>
+                <option value="{{ w2 }}">W2 INLINE VIDEO</option>
+                <option value="{{ w41 }}">W4.1 EMBEDDED VIDEO</option>
+                <option value="{{ w42 }}">W4.2 EMBEDDED VIDEO</option>
+                <option value="{{ w5 }}">W5: VERTICAL SCROLLER</option>
+                <option value="{{ w61 }}">W6.1 USER SELECT</option>
+                <option value="{{ w62 }}">W6.2 USER SELECT CENTRALISED</option>
+                <option value="{{ w63 }}">W6.3 USER SELECT INLINE</option>
+                <option value="{{ w64 }}">W6.4 USER SELECT PL TEMPLATES (1-COL)</option>
+                <option value="{{ w65 }}">W6.5 USER SELECT NO ICONS</option>
+                <option value="{{ w67 }}">W6.7 USER SELECT PL TEMPLATES (2-COL)</option>
+                <option value="{{ w7 }}">W7 QR CODE</option>
+                <option value="{{ w81 }}">W8.1 ACCORDIAN</option>
+                <option value="{{ w82  }}">W8.2 CARD SWIPER</option>
+                <option value="{{ w83 }}">W8.3 CARD SCROLLER</option>
+                <option value="{{ w91 }}">W9.1 NPS SCORE 1-10</option>
+                <option value="{{ w92 }}">W9.2 CSAT SCORE 5-STAR</option>
+                <option value="{{ w101 }}">W10.1 USER SCORE</option>
+                <option value="{{ w111 }}">W11.1: MOBILE BANNER</option>
+                <option value="{{ w112 }}">W11.2: MOBILE BANNER</option>
+              </select>
+            </div>
+            <div class="column">
+              <!-- <h3>Secondary Block #1</h3> -->
+              <label for="secondary-select">Select Slide #5</label>
+              <select name="slide" id="secondary-select">
+                <option value="">None</option>
+                <option value="{{ w1 }}">W1: STATIC IMAGE</option>
+                <option value="{{ w1_tooltips }}">W1: STATIC IMAGE (TOOLTIPS LAUNCHER)</option>
+                <option value="{{ w2 }}">W2 INLINE VIDEO</option>
+                <option value="{{ w41 }}">W4.1 EMBEDDED VIDEO</option>
+                <option value="{{ w42 }}">W4.2 EMBEDDED VIDEO</option>
+                <option value="{{ w5 }}">W5: VERTICAL SCROLLER</option>
+                <option value="{{ w61 }}">W6.1 USER SELECT</option>
+                <option value="{{ w62 }}">W6.2 USER SELECT CENTRALISED</option>
+                <option value="{{ w63 }}">W6.3 USER SELECT INLINE</option>
+                <option value="{{ w64 }}">W6.4 USER SELECT PL TEMPLATES (1-COL)</option>
+                <option value="{{ w65 }}">W6.5 USER SELECT NO ICONS</option>
+                <option value="{{ w67 }}">W6.7 USER SELECT PL TEMPLATES (2-COL)</option>
+                <option value="{{ w7 }}">W7 QR CODE</option>
+                <option value="{{ w81 }}">W8.1 ACCORDIAN</option>
+                <option value="{{ w82  }}">W8.2 CARD SWIPER</option>
+                <option value="{{ w83 }}">W8.3 CARD SCROLLER</option>
+                <option value="{{ w91 }}">W9.1 NPS SCORE 1-10</option>
+                <option value="{{ w92 }}">W9.2 CSAT SCORE 5-STAR</option>
+                <option value="{{ w101 }}">W10.1 USER SCORE</option>
+                <option value="{{ w111 }}">W11.1: MOBILE BANNER</option>
+                <option value="{{ w112 }}">W11.2: MOBILE BANNER</option>
+              </select>
+            </div>
+            <div class="column">
+              <!-- <h3>Secondary Block #1</h3> -->
+              <label for="secondary-select">Select Slide #6</label>
+              <select name="slide" id="secondary-select">
+                <option value="">None</option>
+                <option value="{{ w1 }}">W1: STATIC IMAGE</option>
+                <option value="{{ w1_tooltips }}">W1: STATIC IMAGE (TOOLTIPS LAUNCHER)</option>
+                <option value="{{ w2 }}">W2 INLINE VIDEO</option>
+                <option value="{{ w41 }}">W4.1 EMBEDDED VIDEO</option>
+                <option value="{{ w42 }}">W4.2 EMBEDDED VIDEO</option>
+                <option value="{{ w5 }}">W5: VERTICAL SCROLLER</option>
+                <option value="{{ w61 }}">W6.1 USER SELECT</option>
+                <option value="{{ w62 }}">W6.2 USER SELECT CENTRALISED</option>
+                <option value="{{ w63 }}">W6.3 USER SELECT INLINE</option>
+                <option value="{{ w64 }}">W6.4 USER SELECT PL TEMPLATES (1-COL)</option>
+                <option value="{{ w65 }}">W6.5 USER SELECT NO ICONS</option>
+                <option value="{{ w67 }}">W6.7 USER SELECT PL TEMPLATES (2-COL)</option>
+                <option value="{{ w7 }}">W7 QR CODE</option>
+                <option value="{{ w81 }}">W8.1 ACCORDIAN</option>
+                <option value="{{ w82  }}">W8.2 CARD SWIPER</option>
+                <option value="{{ w83 }}">W8.3 CARD SCROLLER</option>
+                <option value="{{ w91 }}">W9.1 NPS SCORE 1-10</option>
+                <option value="{{ w92 }}">W9.2 CSAT SCORE 5-STAR</option>
+                <option value="{{ w101 }}">W10.1 USER SCORE</option>
+                <option value="{{ w111 }}">W11.1: MOBILE BANNER</option>
+                <option value="{{ w112 }}">W11.2: MOBILE BANNER</option>
+              </select>
+            </div>
+          </div>
+
+          <div  class="row">
+            <div class="column">
+              <!-- <h3>Secondary Block #1</h3> -->
+              <label for="secondary-select">Select Slide #7</label>
+              <select name="slide" id="secondary-select">
+                <option value="">None</option>
+                <option value="{{ w1 }}">W1: STATIC IMAGE</option>
+                <option value="{{ w1_tooltips }}">W1: STATIC IMAGE (TOOLTIPS LAUNCHER)</option>
+                <option value="{{ w2 }}">W2 INLINE VIDEO</option>
+                <option value="{{ w41 }}">W4.1 EMBEDDED VIDEO</option>
+                <option value="{{ w42 }}">W4.2 EMBEDDED VIDEO</option>
+                <option value="{{ w5 }}">W5: VERTICAL SCROLLER</option>
+                <option value="{{ w61 }}">W6.1 USER SELECT</option>
+                <option value="{{ w62 }}">W6.2 USER SELECT CENTRALISED</option>
+                <option value="{{ w63 }}">W6.3 USER SELECT INLINE</option>
+                <option value="{{ w64 }}">W6.4 USER SELECT PL TEMPLATES (1-COL)</option>
+                <option value="{{ w65 }}">W6.5 USER SELECT NO ICONS</option>
+                <option value="{{ w67 }}">W6.7 USER SELECT PL TEMPLATES (2-COL)</option>
+                <option value="{{ w7 }}">W7 QR CODE</option>
+                <option value="{{ w81 }}">W8.1 ACCORDIAN</option>
+                <option value="{{ w82  }}">W8.2 CARD SWIPER</option>
+                <option value="{{ w83 }}">W8.3 CARD SCROLLER</option>
+                <option value="{{ w91 }}">W9.1 NPS SCORE 1-10</option>
+                <option value="{{ w92 }}">W9.2 CSAT SCORE 5-STAR</option>
+                <option value="{{ w101 }}">W10.1 USER SCORE</option>
+                <option value="{{ w111 }}">W11.1: MOBILE BANNER</option>
+                <option value="{{ w112 }}">W11.2: MOBILE BANNER</option>
+              </select>
+            </div>
+            <div class="column">
+              <!-- <h3>Secondary Block #1</h3> -->
+              <label for="secondary-select">Select Slide #8</label>
+              <select name="slide" id="secondary-select">
+                <option value="">None</option>
+                <option value="{{ w1 }}">W1: STATIC IMAGE</option>
+                <option value="{{ w1_tooltips }}">W1: STATIC IMAGE (TOOLTIPS LAUNCHER)</option>
+                <option value="{{ w2 }}">W2 INLINE VIDEO</option>
+                <option value="{{ w41 }}">W4.1 EMBEDDED VIDEO</option>
+                <option value="{{ w42 }}">W4.2 EMBEDDED VIDEO</option>
+                <option value="{{ w5 }}">W5: VERTICAL SCROLLER</option>
+                <option value="{{ w61 }}">W6.1 USER SELECT</option>
+                <option value="{{ w62 }}">W6.2 USER SELECT CENTRALISED</option>
+                <option value="{{ w63 }}">W6.3 USER SELECT INLINE</option>
+                <option value="{{ w64 }}">W6.4 USER SELECT PL TEMPLATES (1-COL)</option>
+                <option value="{{ w65 }}">W6.5 USER SELECT NO ICONS</option>
+                <option value="{{ w67 }}">W6.7 USER SELECT PL TEMPLATES (2-COL)</option>
+                <option value="{{ w7 }}">W7 QR CODE</option>
+                <option value="{{ w81 }}">W8.1 ACCORDIAN</option>
+                <option value="{{ w82  }}">W8.2 CARD SWIPER</option>
+                <option value="{{ w83 }}">W8.3 CARD SCROLLER</option>
+                <option value="{{ w91 }}">W9.1 NPS SCORE 1-10</option>
+                <option value="{{ w92 }}">W9.2 CSAT SCORE 5-STAR</option>
+                <option value="{{ w101 }}">W10.1 USER SCORE</option>
+                <option value="{{ w111 }}">W11.1: MOBILE BANNER</option>
+                <option value="{{ w112 }}">W11.2: MOBILE BANNER</option>
+              </select>
+            </div>
+            <div class="column">
+              <!-- <h3>Secondary Block #1</h3> -->
+              <label for="secondary-select">Select Slide #9</label>
+              <select name="slide" id="secondary-select">
+                <option value="">None</option>
+                <option value="{{ w1 }}">W1: STATIC IMAGE</option>
+                <option value="{{ w1_tooltips }}">W1: STATIC IMAGE (TOOLTIPS LAUNCHER)</option>
+                <option value="{{ w2 }}">W2 INLINE VIDEO</option>
+                <option value="{{ w41 }}">W4.1 EMBEDDED VIDEO</option>
+                <option value="{{ w42 }}">W4.2 EMBEDDED VIDEO</option>
+                <option value="{{ w5 }}">W5: VERTICAL SCROLLER</option>
+                <option value="{{ w61 }}">W6.1 USER SELECT</option>
+                <option value="{{ w62 }}">W6.2 USER SELECT CENTRALISED</option>
+                <option value="{{ w63 }}">W6.3 USER SELECT INLINE</option>
+                <option value="{{ w64 }}">W6.4 USER SELECT PL TEMPLATES (1-COL)</option>
+                <option value="{{ w65 }}">W6.5 USER SELECT NO ICONS</option>
+                <option value="{{ w67 }}">W6.7 USER SELECT PL TEMPLATES (2-COL)</option>
+                <option value="{{ w7 }}">W7 QR CODE</option>
+                <option value="{{ w81 }}">W8.1 ACCORDIAN</option>
+                <option value="{{ w82  }}">W8.2 CARD SWIPER</option>
+                <option value="{{ w83 }}">W8.3 CARD SCROLLER</option>
+                <option value="{{ w91 }}">W9.1 NPS SCORE 1-10</option>
+                <option value="{{ w92 }}">W9.2 CSAT SCORE 5-STAR</option>
+                <option value="{{ w101 }}">W10.1 USER SCORE</option>
+                <option value="{{ w111 }}">W11.1: MOBILE BANNER</option>
+                <option value="{{ w112 }}">W11.2: MOBILE BANNER</option>
+              </select>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="row">
+            <div class="column">
+              <input type="submit" value="Download">
+            </div>
+          </div>
+      </form>
+    </div>
+
+	<script src="index.js"></script>
+  
+  {% endblock %}
