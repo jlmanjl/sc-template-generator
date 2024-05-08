@@ -27,7 +27,7 @@ function initialize(){let e="{{plat}}",t="{{campaign.${name}}}",a="{{event_prope
 <!---MESSAGE SPECIFIC FUNCTIONS v23.15--->
 <script type="text/javascript">
 function scFuncs(){$(".mob-expand").click(function(){var e,a=((e=window.innerHeight-20)>800&&(e=800),e);if(window.innerWidth<1025){var n=window.innerHeight/2-a/2;$(".mob-banner").animate({bottom:n}),$(".mob-banner").animate({maxHeight:a})}}),$(".contract-close").click(function(){if(window.innerWidth<1025){$(".mob-banner").animate({maxHeight:"130px"}),$(".mob-banner").animate({bottom:"90px"});var e,a,n=$(this).parents(".slick-slide"),i=n.prev();e=n,a=i,a.animate({opacity:"1"},500,function(){e.css("opacity","0"),e.hide()}),a.show(),e.removeClass("slick-active"),a.addClass("slick-active")}appboyBridge.logCustomEvent("help_close_overview",{message_source:"{{campaign.${message_name}}}",message_platform:"{{plat}}"}),appboyBridge.requestImmediateDataFlush(),setTimeout(function(){appboyBridge.closeMessage()},1e3)})}
-</script>	
+</script>		
 '''
 
 tooltip_package = '''
@@ -41,6 +41,7 @@ function brazeToolTips(){let t=$(".slick-container").data("tooltiponly");functio
 '''
 
 userscoring_package = '''
+<!---USER SCORE PACKAGES v23.15---> 
 <style type="text/css">
 .bubble.half-purp,.bubble.purp{background-color:#6559ff}.score-block{position:absolute;left:0;top:50%;padding:10px;width:100%;transform:translate(0,-50%)}.score-container{border:1px solid #eef1f7;max-width:440px;margin:auto;padding:20px;border-radius:8px;background:#fff;width:100%}.score-row{min-height:30px;padding:0 10px}.score-row:hover{cursor:pointer}.score-row *{display:inline-block;vertical-align:middle}.bubble{border-radius:50px;width:20px;height:20px;background-color:#dee4ed}.bubble.half-purp{background-image:linear-gradient(90deg,rgba(0,0,0,0) 50%,#dee4ed 50%)}.row-label{padding:0 5px 0 10px}.score-content{border-radius:8px;margin:8px 0 20px}.score-content p{padding:0 10px;margin:0;font-size:13px;line-height:24px}.score-content .level{padding-bottom:5px}.score-content *{font-size:13px}.score-content a{text-decoration:underline}.score-content hr{height:1px;border:none;background:#eef1f7;margin:0 10px 10px}.score-arrow{max-width:106px;position:relative;display:inline-block;right:-10px;z-index:9999999999;width:18%}.score-header{max-width:440px;margin:auto;padding:5px 3px;width:100%}hr.score-line{border:none;height:1px;background-color:#eef1f7;margin:4px 10px}.score-content br{margin:10px;display:block;content:''}.show-500-inline{display:none}@media only screen and (max-width:720px){.score-container{padding:20px 10px}.bubble{width:10px;height:10px}}@media only screen and (max-width:550px){.bubble{border-radius:50px;width:20px;height:20px;background-color:#dee4ed}}
 </style>
@@ -57,7 +58,7 @@ swiper_package = '''
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <style>
 .flip-card h4,.flip-card p{margin:8px 0 0}.swiper-container{padding:0}.swiper{height:100%;overflow:hidden}.swiper-wrapper{width:100vw}.swiper-slide{margin:0 8px 10px 0;height:100%}.swiper-card-image{width:100%}.swiper-pagination{position:static}.swiper-pagination-bullet-active{background-color:#6559ff!important}.flip-card-inner{position:relative;width:100%;min-height:400px;text-align:center;transition:transform .3s;transform-style:preserve-3d}.flip-card-back,.is-flipped{transform:rotateY(-180deg)}.flip-card-back,.flip-card-front{position:absolute;width:100%;height:100%;-webkit-backface-visibility:hidden;backface-visibility:hidden}.flip-card{border-radius:8px;padding:16px;height:100%}.flip-card h4{font-family:Poppins,sans-serif}.flip-card footer{position:absolute;bottom:8px;left:0;right:0}.flip-card .button{margin:16px}.flip-card .button p{margin:0}.flip-card img{margin:8px 0;max-height:155px}.close-swiper-btn{position:absolute;left:0;right:0;bottom:-24px}:root{--swiper-navigation-size:20px;--swiper-theme-color:#6559FF}.swiper-button-next,.swiper-rtl .swiper-button-prev{right:-24px}.swiper-button-prev,.swiper-rtl .swiper-button-next{left:-24px}.swiper-button-next,.swiper-button-prev{top:50%}@media only screen and (min-width:550px){.display-mob-only{display:none}}@media only screen and (max-width:750px){.swiper{max-width:100vw;padding:0}.swiper-text-container{padding:0 4%}.flip-card-inner{min-height:450px}}@media only screen and (max-width:550px){.display-desktop-only{display:none}.swiper{max-width:100vw;padding:4%}.swiper-text-container{padding:0 4%}.flip-card-inner{min-height:55vh}}@media only screen and (max-width:450px){.swiper{width:100vw}}
-</style>
+</style>	
 '''
 
 inapp_top2 = '''

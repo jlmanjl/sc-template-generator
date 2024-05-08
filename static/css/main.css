@@ -16,6 +16,10 @@ input {
     color: #6559FF;
 }
 
+hr {
+    margin: 8px;
+}
+
 button,
 input[type='button'],
 input[type='reset'],
@@ -38,8 +42,8 @@ input[type='submit'] {
   white-space: nowrap;
 }
 .custom-container {
-    margin-top: 75px;
-    margin-bottom: 75px;
+    margin-top: 48px;
+    margin-bottom: 48px;
 }
 
 .nav {
@@ -118,6 +122,23 @@ input[type='submit'] {
     font-size: 14px;
 }
 
+/* Preview Pane CSS */
+.preview-column > .row {    
+    height: 100%;
+}
+#preview-pane {
+    background-color: #F3F6FB;
+    margin: 0px 24px 0px 24px;
+    padding: 32px;
+    height: 100%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#preview-text {
+    display: block;
+}
 
 /* UNDERLINE ANIMATION */
 span {

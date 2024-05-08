@@ -3,146 +3,132 @@
     {% block content %}
 
     <div class="container custom-container">
-    <h1><span class="heading hover-underline-animation">Email Template</span> Creator</h1>
-      <p>This is for email template creation duh</p>
 
-      <form method="post" action="/email-download">
-          <!-- <h3>Primary Block</h3>
-          <label><input type="checkbox" name="component" value="{{ p1_small }}" > P1 SMALL</label>
-          <label><input type="checkbox" name="component" value="{{ p1_wide }}" checked> P1 WIDE</label> -->
+      <div class="row">
+        <div class="column">
 
+          <h1><span class="heading hover-underline-animation">Email Template</span> Creator</h1>
           <div class="row">
             <div class="column">
-              <!-- <h3>Primary Block</h3> -->
-              <label for="primary-select">Select Primary Block</label>
-              <select name="component" id="primary-select">
-                <option value="">None</option>
-                <option value="{{ p1_small }}">P1 SMALL</option>
-                <option value="{{ p1_wide }}">P1 WIDE</option>
-              </select>
-            </div>
-          </div>
-          
-          <hr>
-
-          <div  class="row">
-            <div class="column">
-              <!-- <h3>Secondary Block #1</h3> -->
-              <label for="secondary-select">Select Secondary Block #1</label>
-              <select name="component" id="secondary-select">
-                <option value="">None</option>
-                <option value="{{ s1 }}">S1 - SINGLE COLUMN</option>
-                <option value="{{ s2 }}">S2 - 2-COL IMAGE LARGE</option>
-                <option value="{{ s3 }}">S3 - 2-COL IMAGE SMALL</option>
-                <option value="{{ s4 }}">S4 - GENERAL CTA BOX</option>
-                <option value="{{ s5 }}">S5 - CASE STUDY</option>
-                <option value="{{ s6 }}">S6 - PRODUCT CARDS</option>
-                <option value="{{ s7 }}">S7 - LOGO STRIP BLOCK</option>
-              </select>
-
-              <!-- <h3>Secondary Block #1</h3>
-              <label><input type="checkbox" name="component" value="{{ s1 }}" > S1 SECONDARY - SINGLE COLUMN</label>
-              <label><input type="checkbox" name="component" value="{{ s2 }}" > S2 SECONDARY - 2-COL IMAGES LARGE</label>
-              <label><input type="checkbox" name="component" value="{{ s3 }}" > S3 SECONDARY - 2-COL IMAGES SMALL</label>
-              <label><input type="checkbox" name="component" value="{{ s4 }}" > S4 SECONDARY - GENERAL CTA BOX</label>
-              <label><input type="checkbox" name="component" value="{{ s5 }}" > S5 SECONDARY - CASE STUDY</label>
-              <label><input type="checkbox" name="component" value="{{ s6 }}" > S6 SECONDARY: PRODUCT CARDS</label>
-              <label><input type="checkbox" name="component" value="{{ s7 }}" > S7 SECONDARY - LOGO STRIP BLOCK</label> -->
-            </div>
-
-            <div class="column">
-              <!-- <h3>Secondary Block #2</h3> -->
-              <label for="secondary-select">Select Secondary Block #2</label>
-              <select name="component" id="secondary-select">
-                <option value="">None</option>
-                <option value="{{ s1 }}">S1 - SINGLE COLUMN</option>
-                <option value="{{ s2 }}">S2 - 2-COL IMAGE LARGE</option>
-                <option value="{{ s3 }}">S3 - 2-COL IMAGE SMALL</option>
-                <option value="{{ s4 }}">S4 - GENERAL CTA BOX</option>
-                <option value="{{ s5 }}">S5 - CASE STUDY</option>
-                <option value="{{ s6 }}">S6 - PRODUCT CARDS</option>
-                <option value="{{ s7 }}">S7 - LOGO STRIP BLOCK</option>
-              </select>
-            </div>
-
-            <div class="column">
-              <!-- <h3>Secondary Block #3</h3> -->
-              <label for="secondary-select">Select Secondary Block #3</label>
-              <select name="component" id="secondary-select">
-                <option value="">None</option>
-                <option value="{{ s1 }}">S1 - SINGLE COLUMN</option>
-                <option value="{{ s2 }}">S2 - 2-COL IMAGE LARGE</option>
-                <option value="{{ s3 }}">S3 - 2-COL IMAGE SMALL</option>
-                <option value="{{ s4 }}">S4 - GENERAL CTA BOX</option>
-                <option value="{{ s5 }}">S5 - CASE STUDY</option>
-                <option value="{{ s6 }}">S6 - PRODUCT CARDS</option>
-                <option value="{{ s7 }}">S7 - LOGO STRIP BLOCK</option>
-              </select>
+              <p>This is for email template creation duh. Download the full template <a href="https://drive.google.com/drive/folders/1_jgxm7yNt4c3DBUQM_LPV3V8SIqS5MZ0">here</a></p>
+              <p></p>
             </div>
           </div>
 
-          <hr>
-
-          <div class="row">
-            <div class="column">
-              <!-- <h3>Tertiary Block #1</h3> -->
-              <label for="tertiary-select">Select Tertiary Block #1</label>
-              <select name="component" id="tertiary-select">
-                <option value="">None</option>
-                <option value="{{ t2 }}">T2 - SINGLE CTA MIDDLE</option>
-                <option value="{{ t3 }}">T3 - PL TEMPLATES</option>
-                <option value="{{ t_csrequest }}">CS REQUEST</option>
-                <option value="{{ t_sccertified }}">SC CERTIFIED</option>
-                <option value="{{ t_inbounddemo }}">INBOUND DEMO</option>
-                <option value="{{ t_livewebinars }}">LIVE WEBINARS</option>
-                <option value="{{ t_integrations }}">INTEGRATIONS</option>
-                <option value="{{ t_freeseats }}">FREE SEATS</option>
-              </select>
+          <form method="post" action="/email-download">
+            <div class="row">
+              <div class="column">
+                <label for="primary-select">Select Primary Block</label>
+                <select name="component" id="primary-select">
+                  <option value="">None</option>
+                  <option value="{{ p1_small }}" id="p1-small">P1 SMALL</option>
+                  <option value="{{ p1_wide }}" id="p1-wide">P1 WIDE</option>
+                </select>
+              </div>
             </div>
-
-            <div class="column">
-              <!-- <h3>Tertiary Block #1</h3> -->
-              <label for="tertiary-select">Select Tertiary Block #2</label>
-              <select name="component" id="tertiary-select">
-                <option value="">None</option>
-                <option value="{{ t2 }}">T2 - SINGLE CTA MIDDLE</option>
-                <option value="{{ t3 }}">T3 - PL TEMPLATES</option>
-                <option value="{{ t_csrequest }}">CS REQUEST</option>
-                <option value="{{ t_sccertified }}">SC CERTIFIED</option>
-                <option value="{{ t_inbounddemo }}">INBOUND DEMO</option>
-                <option value="{{ t_livewebinars }}">LIVE WEBINARS</option>
-                <option value="{{ t_integrations }}">INTEGRATIONS</option>
-                <option value="{{ t_freeseats }}">FREE SEATS</option>
+            
+            <hr>
+  
+            <div class="row">
+              <div class="column">
+                <label for="secondary-select">Select Secondary Block #1</label>
+                <select name="component" id="secondary-select1">
+                  <option value="">None</option>
+                  <option value="{{ s1 }}" id="s1">S1 - SINGLE COLUMN</option>
+                  <option value="{{ s2 }}" id="s2">S2 - 2-COL IMAGE LARGE</option>
+                  <option value="{{ s3 }}" id="s3">S3 - 2-COL IMAGE SMALL</option>
+                  <option value="{{ s4 }}" id="s4">S4 - GENERAL CTA BOX</option>
+                  <option value="{{ s5 }}" id="s5">S5 - CASE STUDY</option>
+                  <option value="{{ s6 }}" id="s6">S6 - PRODUCT CARDS</option>
+                  <option value="{{ s7 }}" id="s7">S7 - LOGO STRIP BLOCK</option>
               </select>
+              </div>
+
+              <div class="column">
+                <label for="secondary-select">Select Secondary Block #2</label>
+                <select name="component" id="secondary-select2">
+                  <option value="">None</option>
+                  <option value="{{ s1 }}" id="s1">S1 - SINGLE COLUMN</option>
+                  <option value="{{ s2 }}" id="s2">S2 - 2-COL IMAGE LARGE</option>
+                  <option value="{{ s3 }}" id="s3">S3 - 2-COL IMAGE SMALL</option>
+                  <option value="{{ s4 }}" id="s4">S4 - GENERAL CTA BOX</option>
+                  <option value="{{ s5 }}" id="s5">S5 - CASE STUDY</option>
+                  <option value="{{ s6 }}" id="s6">S6 - PRODUCT CARDS</option>
+                  <option value="{{ s7 }}" id="s7">S7 - LOGO STRIP BLOCK</option>
+                </select>
+              </div>
             </div>
-
-            <div class="column">
-              <!-- <h3>Tertiary Block #1</h3> -->
-              <label for="tertiary-select">Select Tertiary Block #3</label>
-              <select name="component" id="tertiary-select">
-                <option value="">None</option>
-                <option value="{{ t2 }}">T2 - SINGLE CTA MIDDLE</option>
-                <option value="{{ t3 }}">T3 - PL TEMPLATES</option>
-                <option value="{{ t_csrequest }}">CS REQUEST</option>
-                <option value="{{ t_sccertified }}">SC CERTIFIED</option>
-                <option value="{{ t_inbounddemo }}">INBOUND DEMO</option>
-                <option value="{{ t_livewebinars }}">LIVE WEBINARS</option>
-                <option value="{{ t_integrations }}">INTEGRATIONS</option>
-                <option value="{{ t_freeseats }}">FREE SEATS</option>
-              </select>
+  
+            <hr>
+  
+            <div class="row">
+              <div class="column">
+                <label for="tertiary-select">Select Tertiary Block #1</label>
+                <select name="component" id="tertiary-select1">
+                  <option value="">None</option>
+                  <option value="{{ t2 }}" id="t2">T2 - SINGLE CTA MIDDLE</option>
+                  <option value="{{ t3 }}" id="t3">T3 - PL TEMPLATES</option>
+                  <option value="{{ t_csrequest }}" id="t_csrequest">CS REQUEST</option>
+                  <option value="{{ t_sccertified }}" id="t_sccertified">SC CERTIFIED</option>
+                  <option value="{{ t_inbounddemo }}" id="t_inbounddemo">INBOUND DEMO</option>
+                  <option value="{{ t_livewebinars }}" id="t_livewebinars">LIVE WEBINARS</option>
+                  <option value="{{ t_integrations }}" id="t_integrations">INTEGRATIONS</option>
+                  <option value="{{ t_freeseats }}" id="t_freeseats">FREE SEATS</option>
+                  <option value="{{ t_sensors }}" id="t_sensors">SENSORS</option>
+                  <option value="{{ t_community }}" id="t_community">COMMUNITY</option>
+                </select>
+              </div>
+  
+              <div class="column">
+                <label for="tertiary-select">Select Tertiary Block #2</label>
+                <select name="component" id="tertiary-select2">
+                  <option value="">None</option>
+                  <option value="{{ t2 }}" id="t2">T2 - SINGLE CTA MIDDLE</option>
+                  <option value="{{ t3 }}" id="t3">T3 - PL TEMPLATES</option>
+                  <option value="{{ t_csrequest }}" id="t_csrequest">CS REQUEST</option>
+                  <option value="{{ t_sccertified }}" id="t_sccertified">SC CERTIFIED</option>
+                  <option value="{{ t_inbounddemo }}" id="t_inbounddemo">INBOUND DEMO</option>
+                  <option value="{{ t_livewebinars }}" id="t_livewebinars">LIVE WEBINARS</option>
+                  <option value="{{ t_integrations }}" id="t_integrations">INTEGRATIONS</option>
+                  <option value="{{ t_freeseats }}" id="t_freeseats">FREE SEATS</option>
+                  <option value="{{ t_sensors }}" id="t_sensors">SENSORS</option>
+                  <option value="{{ t_community }}" id="t_community">COMMUNITY</option>
+                </select>
+              </div>
+            </div> 
+  
+            <hr>
+  
+            <!-- <div class="row">
+              <div class="column">
+                <label for="primary-select">Extra</label>
+                <label><input type="checkbox" name="component" value="{{ triline }}">Triline</label>
+              </div>
+            </div> -->
+  
+            <div class="row">
+              <div class="column">
+                <input type="submit" value="Download">
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="column preview-column">
+          <div id="preview-pane">
+            <h2 id="preview-text">Preview</h2>
+            <div id="preview">
+              <div class=""></div>
             </div>
           </div>
+        </div>
+      </div>
 
-          <hr>
+      <meta id="p1-small-meta" data-name="{{ url_for('static', filename='images/p1-small.png') }}">
+      
+  </div>
 
-          <div class="row">
-            <div class="column">
-              <input type="submit" value="Download">
-            </div>
-          </div>
-      </form>
-    </div>
+	<!-- <script src="index.js"></script> -->
+  <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
 
-	<script src="index.js"></script>
   
   {% endblock %}

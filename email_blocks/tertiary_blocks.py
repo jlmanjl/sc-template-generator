@@ -10,9 +10,9 @@ t2 = '''
 				<tr>
 					<td align="center" class="section-padding">
 						<!--[if (gte mso 9)|(IE)]>
-						<table align="center" border="0" cellspacing="0" cellpadding="0" width="520">
+						<table align="center" border="0" cellspacing="0" cellpadding="0" width="540">
 						<tr>
-						<td align="center" valign="middle" width="520">
+						<td align="center" valign="middle" width="540">
 						<![endif]-->
 						<table bgcolor="#F4F7FE" border="0" cellpadding="0" cellspacing="0" width="100%" class="tertiary-cta inner-block">
 							<tr>
@@ -25,7 +25,7 @@ t2 = '''
 									<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 460px;">
 										<tr>
 											<td align="center" style="padding:20px;">
-													<img src="https://safetyculture.com/wp-content/media/2021/11/better-performance-powered-by-observation-safetyculture.png" width="380" border="0" alt="Get started" class="banner-image">
+													<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fcf728e066f03e8ac228de/original.png?1660745512" width="380" border="0" alt="Get started" class="banner-image">
 											</td>
 										</tr>
 									</table>
@@ -86,45 +86,44 @@ t3 = '''
 						<tr>
 						<td align="center" valign="middle" width="520">
 						<![endif]-->
-						<table bgcolor="#F4F7FE" border="0" cellpadding="0" cellspacing="0" width="100%" class="tertiary-cta inner-block">
+						<table bgcolor="#D9DBFF" border="0" cellpadding="0" cellspacing="0" width="100%" class="tertiary-cta inner-block">
 							<tr>
-								<td align="center" style="padding:30px;">
-									<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 460px;">
+								<td align="center" style="padding:20px;">
+									<table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 520px;">
 										<tr>
-											<td align="center" class="padding subheader" style="padding-bottom:20px;">Tertiary CTA: Templates</td>
+											<td align="center" class="padding subheader" style="padding-bottom:20px;">Teams like you are using these templates</td>
 										</tr>
 
 										<!--PL TEMPLATES--->
 										<tr>
 											<td align="center"  valign="middle" width="100%">
 												<!--[if (gte mso 9)|(IE)]>
-												<table align="center" border="0" cellspacing="0" cellpadding="0" width="420">
+												<table align="center" border="0" cellspacing="0" cellpadding="0" width="520">
 												<tr>
-												<td align="center" valign="middle" width="420">
+												<td align="center" valign="middle" width="520">
 												<![endif]-->
-												<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:450px;">
+												<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:520px;">
 													<tr>
 														<td align="center" valign="middle" style="font-size:0;" class="padding-x">
 															<!--[if (gte mso 9)|(IE)]>
-															<table align="left" border="0" cellspacing="0" cellpadding="0" width="480">
+															<table align="left" border="0" cellspacing="0" cellpadding="0" width="520">
 															<tr>
-															<td align="left" valign="middlhee" width="200">
+															<td align="left" valign="middle" width="250">
 															<![endif]-->
-																	<div style="display:inline-block; margin: 0 0 0px 0px; max-width:40%; min-width:225px; vertical-align:middle;width:100%;" class="wrapper pl-template-box">
-																		<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:225px;" class="wrapper">
+																	<div style="display:inline-block; margin: 0 0 0px 0px; max-width:50%; min-width:250px; vertical-align:middle;width:100%;" class="wrapper pl-template-box">
+																		<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:250px;" class="wrapper">
 																			<tr>
 																				<td align="center" valign="middle" style="padding:5px;">
 
 																		<!--[if (gte mso 9)|(IE)]>
-																		<table border="0" ><tr><td width="210">
+																		<table border="0" ><tr><td width="250">
 																		<![endif]-->
-																					<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff" class="pl-template">
+																					<table border="0" cellpadding="10" cellspacing="0" width="100%" bgcolor="#ffffff" class="pl-template">
 																						<tr>
-																							<td align="left" valign="middle" width="90">
-																								<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/621cc9d6a999e51c786229fa/original.png?1646053846" width="50" height="50" class="pl-template-image" alt="Contact" border="0">
-																							</td>
-																							<td align="left" class="pl-template-label" >
-																								<a href="{{region-domain-pl}}?id={{template_1_id}}&$ios_deeplink_path=iauditor://library/template/{{template_1_id}}?view_only=true&$android_deeplink_path=iauditor://library/template/{{template_1_id}}">{{template_1}}</a>
+																							<td align="left" class="pl-template-label" style="padding:15px" valign="top">
+																								<span style="font-size: 12px;color:#6559ff;">&#128203; TEMPLATE</span><br>
+																								{{pl_template_1_title}}<br>
+																								<span style="font-size: 12px;"><a href="{{region-domain-pl}}?id={{pl_template_1_id}}&$ios_deeplink_path=iauditor://library/template/{{pl_template_1_id}}?view_only=true&$android_deeplink_path=iauditor://library/template/{{pl_template_1_id}}">Download this template</a></span>
 																							</td>
 																						</tr>
 																					</table>
@@ -139,203 +138,24 @@ t3 = '''
 																	</div>
 																	<!--[if (gte mso 9)|(IE)]>
 																	</td>
-																	<td width="20" style="font-size: 1px;">&nbsp;</td>
-																	<td align="left" valign="middle" width="200">
+																	<td width="10" style="font-size: 1px;">&nbsp;</td>
+																	<td align="left" valign="middle" width="250">
 																	<![endif]-->
-																	<div style="display:inline-block; margin: 0 0 0px 0px; max-width:40%; min-width:225px; vertical-align:middle;width:100%;" class="wrapper pl-template-box">
+																	<div style="display:inline-block; margin: 0 0 0px 0px; max-width:50%; min-width:250px; vertical-align:middle;width:100%;" class="wrapper pl-template-box">
 
-																		<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:225px;" class="wrapper">
+																		<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:250px;" class="wrapper">
 																			<tr>
 																				<td align="" valign="middle" style="padding:5px;">
 
 																		<!--[if (gte mso 9)|(IE)]>
-																		<table border="0" ><tr><td width="210">
+																		<table border="0" ><tr><td width="250">
 																		<![endif]-->
 																					<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff" class="pl-template">
 																						<tr>
-																							<td align="left" valign="middle" width="90">
-																								<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/621cc9d559344524af71e0be/original.png?1646053845" width="50" height="50" class="pl-template-image" alt="QA" border="0">
-																							</td>
-																							<td align="left" class="pl-template-label" >
-																								<a href="{{region-domain-pl}}?id={{template_2_id}}&$ios_deeplink_path=iauditor://library/template/{{template_2_id}}?view_only=true&$android_deeplink_path=iauditor://library/template/{{template_2_id}}">{{template_2}}</a>
-																							</td>
-																						</tr>
-																					</table>
-																		<!--[if (gte mso 9)|(IE)]>
-																		</table></tr></td>
-																		<![endif]-->
-
-																				</td>
-																			</tr>
-																		</table>
-																	</div>
-															<!--[if (gte mso 9)|(IE)]>
-															</td>
-															</tr>
-															</table>
-															<![endif]-->
-														</td>
-													</tr>
-												</table>
-												<!--[if (gte mso 9)|(IE)]>
-												</td>
-												</tr>
-												</table>
-												<![endif]-->
-											</td>
-										</tr>
-										<tr>
-											<td align="center"  valign="middle" width="100%">
-												<!--[if (gte mso 9)|(IE)]>
-												<table align="center" border="0" cellspacing="0" cellpadding="0" width="420">
-												<tr>
-												<td align="center" valign="middle" width="420">
-												<![endif]-->
-												<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:450px;">
-													<tr>
-														<td align="center" valign="middle" style="font-size:0;" class="padding-x">
-															<!--[if (gte mso 9)|(IE)]>
-															<table align="left" border="0" cellspacing="0" cellpadding="0" width="480">
-															<tr>
-															<td align="left" valign="middle" width="200">
-															<![endif]-->
-																	<div style="display:inline-block; margin: 0 0 0px 0px; max-width:40%; min-width:225px; vertical-align:middle;width:100%;" class="wrapper pl-template-box">
-																		<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:225px;" class="wrapper">
-																			<tr>
-																				<td align="center" valign="middle" style="padding:5px;">
-
-																		<!--[if (gte mso 9)|(IE)]>
-																		<table border="0" ><tr><td width="210">
-																		<![endif]-->
-																					<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff" class="pl-template">
-																						<tr>
-																							<td align="left" valign="middle" width="90">
-																								<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/621cc9d5a4943e23fd6ce05e/original.png?1646053845" width="50" height="50" class="pl-template-image" alt="Alarm" border="0">
-																							</td>
-																							<td align="left" class="pl-template-label" >
-																								<a href="{{region-domain-pl}}?id={{template_3_id}}&$ios_deeplink_path=iauditor://library/template/{{template_3_id}}?view_only=true&$android_deeplink_path=iauditor://library/template/{{template_3_id}}">{{template_3}}</a>
-																							</td>
-																						</tr>
-																					</table>
-																		<!--[if (gte mso 9)|(IE)]>
-																		</table></tr></td>
-																		<![endif]-->
-
-
-																				</td>
-																			</tr>
-																		</table>
-																	</div>
-																	<!--[if (gte mso 9)|(IE)]>
-																	</td>
-																	<td width="20" style="font-size: 1px;">&nbsp;</td>
-																	<td align="left" valign="middle" width="200">
-																	<![endif]-->
-																	<div style="display:inline-block; margin: 0 0 0px 0px; max-width:40%; min-width:225px; vertical-align:middle;width:100%;" class="wrapper pl-template-box">
-
-																		<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:225px;" class="wrapper">
-																			<tr>
-																				<td align="" valign="middle" style="padding:5px;">
-
-																		<!--[if (gte mso 9)|(IE)]>
-																		<table border="0" ><tr><td width="210">
-																		<![endif]-->
-																					<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff" class="pl-template">
-																						<tr>
-																							<td align="left" valign="middle" width="90">
-																								<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/621cc9d5a4943e09c96cd10e/original.png?1646053845" width="50" height="50" class="pl-template-image" alt="Cleaning" border="0">
-																							</td>
-																							<td align="left" class="pl-template-label" >
-																								<a href="{{region-domain-pl}}?id={{template_4_id}}&$ios_deeplink_path=iauditor://library/template/{{template_4_id}}?view_only=true&$android_deeplink_path=iauditor://library/template/{{template_4_id}}">{{template_4}}</a>
-																							</td>
-																						</tr>
-																					</table>
-																		<!--[if (gte mso 9)|(IE)]>
-																		</table></tr></td>
-																		<![endif]-->
-
-																				</td>
-																			</tr>
-																		</table>
-																	</div>
-															<!--[if (gte mso 9)|(IE)]>
-															</td>
-															</tr>
-															</table>
-															<![endif]-->
-														</td>
-													</tr>
-												</table>
-												<!--[if (gte mso 9)|(IE)]>
-												</td>
-												</tr>
-												</table>
-												<![endif]-->
-											</td>
-										</tr>
-										<tr>
-											<td align="center"  valign="middle" width="100%">
-												<!--[if (gte mso 9)|(IE)]>
-												<table align="center" border="0" cellspacing="0" cellpadding="0" width="420">
-												<tr>
-												<td align="center" valign="middle" width="420">
-												<![endif]-->
-												<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:450px;">
-													<tr>
-														<td align="center" valign="middle" style="font-size:0;" class="padding-x">
-															<!--[if (gte mso 9)|(IE)]>
-															<table align="left" border="0" cellspacing="0" cellpadding="0" width="480">
-															<tr>
-															<td align="left" valign="middle" width="200">
-															<![endif]-->
-																	<div style="display:inline-block; margin: 0 0 0px 0px; max-width:40%; min-width:225px; vertical-align:middle;width:100%;" class="wrapper pl-template-box">
-																		<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:225px;" class="wrapper">
-																			<tr>
-																				<td align="center" valign="middle" style="padding:5px;">
-
-																		<!--[if (gte mso 9)|(IE)]>
-																		<table border="0" ><tr><td width="210">
-																		<![endif]-->
-																					<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff" class="pl-template">
-																						<tr>
-																							<td align="left" valign="middle" width="90">
-																								<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/621cc9d5593445068371d0d6/original.png?1646053845" width="50" height="50" class="pl-template-image" alt="Food" border="0">
-																							</td>
-																							<td align="left" class="pl-template-label" >
-																								<a href="{{region-domain-pl}}?id={{template_5_id}}&$ios_deeplink_path=iauditor://library/template/{{template_5_id}}?view_only=true&$android_deeplink_path=iauditor://library/template/{{template_5_id}}">{{template_5}}</a>
-																							</td>
-																						</tr>
-																					</table>
-																		<!--[if (gte mso 9)|(IE)]>
-																		</table></tr></td>
-																		<![endif]-->
-
-
-																				</td>
-																			</tr>
-																		</table>
-																	</div>
-																	<!--[if (gte mso 9)|(IE)]>
-																	</td>
-																	<td width="20" style="font-size: 1px;">&nbsp;</td>
-																	<td align="left" valign="middle" width="200">
-																	<![endif]-->
-																	<div style="display:inline-block; margin: 0 0 0px 0px; max-width:40%; min-width:225px; vertical-align:middle;width:100%;" class="wrapper pl-template-box">
-
-																		<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:225px;" class="wrapper">
-																			<tr>
-																				<td align="" valign="middle" style="padding:5px;">
-
-																		<!--[if (gte mso 9)|(IE)]>
-																		<table border="0" ><tr><td width="210">
-																		<![endif]-->
-																					<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff" class="pl-template">
-																						<tr>
-																							<td align="left" valign="middle" width="90">
-																								<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/621cc9d5fde9db5c5743cff0/original.png?1646053845" width="50" height="50" class="pl-template-image" alt="Process" border="0">
-																							</td>
-																							<td align="left" class="pl-template-label" >
-																								<a href="{{region-domain-pl}}?id={{template_6_id}}&$ios_deeplink_path=iauditor://library/template/{{template_6_id}}?view_only=true&$android_deeplink_path=iauditor://library/template/{{template_6_id}}">{{template_6}}</a>
+																							<td align="left" class="pl-template-label" style="padding:15px" valign="top">
+																								<span style="font-size: 12px;color:#6559ff;">&#128203; TEMPLATE</span><br>
+																								{{pl_template_2_title}}<br>
+																								<span style="font-size: 12px;"><a href="{{region-domain-pl}}?id={{pl_template_2_id}}&$ios_deeplink_path=iauditor://library/template/{{pl_template_2_id}}?view_only=true&$android_deeplink_path=iauditor://library/template/{{pl_template_2_id}}">Download this template</a></span>
 																							</td>
 																						</tr>
 																					</table>
@@ -363,23 +183,6 @@ t3 = '''
 											</td>
 										</tr>
 										<!--/PL TEMPLATES--->
-										<tr>
-											<td align="center"  style="padding: 20px 0px">
-												<!-- BULLETPROOF BUTTON -->
-												<table width="100%" border="0" cellspacing="0" cellpadding="0">
-													<tr>
-														<td align="center" style="padding: 10px 0px 0px 0px;">
-															<table border="0" cellspacing="0" cellpadding="0">
-																<tr>
-																	<td align="center" target="_blank" class="button secondary" style="border:1px solid #182C4F;"><a href="#" style="color:#182C4F; text-decoration:none;">Aenean nec lorem</a></td>
-																</tr>
-															</table>
-														</td>
-													</tr>
-												</table>
-											</td>
-										</tr>
-													
 									</table>
 								</td>
 							</tr>
@@ -414,12 +217,13 @@ t_csrequest = '''
 				<td align="center" class="section-padding">
 					<table bgcolor="" border="0" cellpadding="0" cellspacing="0" width="100%" class="inner-block">
 						<tr><td><hr style="border: none;margin: 10px auto 40px;height: 1px;color: #BFC5D4;background-color: #BFC5D4;"></td></tr>
-
+						
+						
 						<!--ROWS-->
 						<tr>
 							<td align="left"  valign="middle" width="100%">
 								<!--[if (gte mso 9)|(IE)]>
-								<table align="center" border="0" cellspacing="0" cellpadding="0" width="520">
+								<table align="center" border="0" cellspacing="0" cellpadding="0" width="540">
 								<tr>
 								<td align="center" valign="middle" width="520">
 								<![endif]-->
@@ -427,15 +231,15 @@ t_csrequest = '''
 									<tr>
 										<td align="left" valign="middle" style="font-size:0;">
 											<!--[if (gte mso 9)|(IE)]>
-											<table align="left" border="0" cellspacing="0" cellpadding="0" width="520">
+											<table align="left" border="0" cellspacing="0" cellpadding="0" width="540">
 											<tr>
-											<td align="left" valign="top" width="100">
+											<td align="left" valign="top" width="110">
 											<![endif]-->
 													<div style="display:inline-block; margin: 10px 0 20px 0px; max-width:28%; min-width:90px; vertical-align:top;width:100%;" class="wrapper">
-														<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:110px;" class="wrapper">
+														<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:130px;" class="wrapper">
 															<tr>
 																<td align="center" valign="top" height="100" class="mobile-left">
-																	<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62f49b1e4c55b642c3a6de69/original.png?1660197661" width="110" height="110" alt="CS Request" border="0" class="row-image-mid">
+																	<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62f49b1e4c55b642c3a6de69/original.png?1660197661" width="110" height="110" alt="SC Certified" border="0" class="row-image-mid">
 																</td>
 															</tr>
 														</table>
@@ -443,9 +247,9 @@ t_csrequest = '''
 											<!--[if (gte mso 9)|(IE)]>
 											</td>
 											<td width="20" style="font-size: 1px;">&nbsp;</td>
-											<td align="left" valign="middle" width="350">
+											<td align="left" valign="middle" width="360">
 											<![endif]-->
-													<div style="display:inline-block;margin:0 0 20px 0;max-width:62%; min-width:200px; vertical-align:middle;width:100%;" class="wrapper">
+													<div style="display:inline-block;margin:0 0 20px 0;max-width:70%; min-width:200px; vertical-align:middle;width:100%;" class="wrapper">
 														<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:370px;" class="wrapper">
 															<tr>
 																<td align="left" style="padding: 10px 0 10px 0;" class="subheader">Let's optimize your account</td>
@@ -486,26 +290,26 @@ t_csrequest = '''
 								<![endif]-->
 							</td>
 						</tr>
-
-
-
+      
+						<!--/ROWS-->
+					
 						<tr>
 							<td align="left"  valign="middle" width="100%" style="padding-bottom: 20px;">
 								<!--[if (gte mso 9)|(IE)]>
-								<table align="center" border="0" cellspacing="0" cellpadding="0" width="520">
+								<table align="center" border="0" cellspacing="0" cellpadding="0" width="540">
 								<tr>
-								<td align="center" valign="middle" width="520">
+								<td align="center" valign="middle" width="540">
 								<![endif]-->
 								<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="inner-block">
 									<tbody><tr>
 										<td align="left" valign="middle" style="font-size:0;" class="row-content card gold-cta">
 											<!--[if (gte mso 9)|(IE)]>
-											<table align="left" border="0" cellspacing="0" cellpadding="10" width="520">
+											<table align="left" border="0" cellspacing="0" cellpadding="10" width="540">
 											<tr>
 
 											<td align="left" valign="middle" width="230">
 											<![endif]-->
-													<div style="display:inline-block; margin:0px; max-width:62%; min-width:240px; vertical-align:middle;width:100%;" class="wrapper">
+													<div style="display:inline-block; margin:0px; max-width:62%; min-width:250px; vertical-align:middle;width:100%;" class="wrapper">
 														<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:280px;" class="wrapper mobile-center">
 															<tbody><tr>
 																<td class="body-text" valign="middle">
@@ -519,16 +323,16 @@ t_csrequest = '''
 											</td>
 
 											<td width="20" style="font-size: 1px;">&nbsp;</td>
-											<td align="left" valign="middle" width="210">
+											<td align="left" valign="middle" width="220">
 											<![endif]-->
 													<div style="display:inline-block; margin:0px; max-width:30%; min-width:180px; vertical-align:middle;width:100%;padding:10px 0px;" class="wrapper">
 														<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:220px;" class="wrapper">
 															<tbody><tr>
 																<td align="center" valign="middle" style="padding:0px;vertical-align:middle;">
 																	<!--[if (gte mso 9)|(IE)]>
-																	<table align="left" border="0" cellspacing="0" cellpadding="0" width="180">
+																	<table align="left" border="0" cellspacing="0" cellpadding="0" width="190">
 																	<tr>
-																	<td align="left" valign="middle" width="180" height="180">
+																	<td align="left" valign="middle" width="180" height="190">
 																	<![endif]-->
 																	<!-- BULLETPROOF BUTTON -->
 																	<table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -569,9 +373,7 @@ t_csrequest = '''
 											</tr>
 											</table>
 											<![endif]-->
-
-
-
+           
 										</td>
 									</tr>
 								</tbody></table>
@@ -582,8 +384,6 @@ t_csrequest = '''
 								<![endif]-->
 							</td>
 						</tr>							
-
-
 						<!--/ROWS-->
 
 					</table>
@@ -618,17 +418,17 @@ t_sccertified = '''
 						<tr>
 							<td align="left"  valign="middle" width="100%">
 								<!--[if (gte mso 9)|(IE)]>
-								<table align="center" border="0" cellspacing="0" cellpadding="0" width="520">
+								<table align="center" border="0" cellspacing="0" cellpadding="0" width="540">
 								<tr>
-								<td align="center" valign="middle" width="520">
+								<td align="center" valign="middle" width="540">
 								<![endif]-->
 								<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="inner-block">
 									<tr>
 										<td align="left" valign="middle" style="font-size:0;">
 											<!--[if (gte mso 9)|(IE)]>
-											<table align="left" border="0" cellspacing="0" cellpadding="0" width="520">
+											<table align="left" border="0" cellspacing="0" cellpadding="0" width="540">
 											<tr>
-											<td align="left" valign="top" width="100">
+											<td align="left" valign="top" width="110">
 											<![endif]-->
 													<div style="display:inline-block; margin: 10px 0 20px 0px; max-width:28%; min-width:90px; vertical-align:top;width:100%;" class="wrapper">
 														<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:130px;" class="wrapper">
@@ -642,7 +442,7 @@ t_sccertified = '''
 											<!--[if (gte mso 9)|(IE)]>
 											</td>
 											<td width="20" style="font-size: 1px;">&nbsp;</td>
-											<td align="left" valign="middle" width="350">
+											<td align="left" valign="middle" width="360">
 											<![endif]-->
 													<div style="display:inline-block;margin:0 0 20px 0;max-width:70%; min-width:200px; vertical-align:middle;width:100%;" class="wrapper">
 														<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:370px;" class="wrapper">
@@ -714,9 +514,9 @@ t_inbounddemo = '''
 				<tr>
 					<td align="center" class="section-padding">
 						<!--[if (gte mso 9)|(IE)]>
-						<table align="center" border="0" cellspacing="0" cellpadding="0" width="520">
+						<table align="center" border="0" cellspacing="0" cellpadding="0" width="540">
 						<tr>
-						<td align="center" valign="middle" width="520">
+						<td align="center" valign="middle" width="540">
 						<![endif]-->
 						<table bgcolor="#F4F7FE" border="0" cellpadding="0" cellspacing="0" width="100%" class="tertiary-cta inner-block">
 							<tr>
@@ -817,9 +617,9 @@ t_livewebinars = '''
 				<tr>
 					<td align="center" class="section-padding">
 						<!--[if (gte mso 9)|(IE)]>
-						<table align="center" border="0" cellspacing="0" cellpadding="0" width="520">
+						<table align="center" border="0" cellspacing="0" cellpadding="0" width="540">
 						<tr>
-						<td align="center" valign="middle" width="520">
+						<td align="center" valign="middle" width="540">
 						<![endif]-->
 						<table bgcolor="#F4F7FE" border="0" cellpadding="0" cellspacing="0" width="100%" class="tertiary-cta inner-block">
 							<tr>
@@ -901,9 +701,9 @@ t_integrations = '''
 				<tr>
 					<td align="center" class="section-padding">
 						<!--[if (gte mso 9)|(IE)]>
-						<table align="center" border="0" cellspacing="0" cellpadding="0" width="520">
+						<table align="center" border="0" cellspacing="0" cellpadding="0" width="540">
 						<tr>
-						<td align="center" valign="middle" width="520">
+						<td align="center" valign="middle" width="540">
 						<![endif]-->
 						<table bgcolor="#F4F7FE" border="0" cellpadding="0" cellspacing="0" width="100%" class="tertiary-cta inner-block">
 							<tr>
@@ -977,9 +777,9 @@ t_freeseats = '''
 				<tr>
 					<td align="center" class="section-padding">
 						<!--[if (gte mso 9)|(IE)]>
-						<table align="center" border="0" cellspacing="0" cellpadding="0" width="520">
+						<table align="center" border="0" cellspacing="0" cellpadding="0" width="540">
 						<tr>
-						<td align="center" valign="middle" width="520">
+						<td align="center" valign="middle" width="540">
 						<![endif]-->
 						<table bgcolor="#F4F7FE" border="0" cellpadding="0" cellspacing="0" width="100%" class="tertiary-cta inner-block">
 							<tr>
@@ -1036,4 +836,151 @@ t_freeseats = '''
             <![endif]-->
         </td>
     </tr><!--/TERTIARY - FREE SEATS-->
+'''
+
+t_sensors = '''
+	<tr><!--TERTIARY - SENSORS-->
+	<td bgcolor="#F4F7FE" class="outer" align="center" style="padding:0px;" >
+		<!--[if (gte mso 9)|(IE)]>
+		<table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+		<tr>
+		<td align="center" valign="middle" width="600">
+		<![endif]-->
+		<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%" class="responsive-table ">
+			<tr>
+				<td align="center" class="section-padding">
+					<table bgcolor="" border="0" cellpadding="0" cellspacing="0" width="100%" class="inner-block">
+						<tr><td><hr style="border: none;margin: 10px auto 40px;height: 1px;color: #BFC5D4;background-color: #BFC5D4;"></td></tr>
+
+						<!--ROWS-->
+						<tr>
+							<td align="left"  valign="middle" width="100%">
+								<!--[if (gte mso 9)|(IE)]>
+								<table align="center" border="0" cellspacing="0" cellpadding="0" width="540">
+								<tr>
+								<td align="center" valign="middle" width="540">
+								<![endif]-->
+								<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="inner-block">
+									<tr>
+										<td align="left" valign="middle" style="font-size:0;">
+											<!--[if (gte mso 9)|(IE)]>
+											<table align="left" border="0" cellspacing="0" cellpadding="0" width="540">
+											<tr>
+											<td align="left" valign="top" width="110">
+											<![endif]-->
+													<div style="display:inline-block; margin: 10px 0 20px 0px; max-width:28%; min-width:90px; vertical-align:top;width:100%;" class="wrapper">
+														<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:130px;" class="wrapper">
+															<tr>
+																<td align="center" valign="top" class="mobile-left">
+																	<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/6453a20352ffb6004c9dc177/original.png?1683202563" width="110" alt="SC Certified" border="0" class="row-image-mid">
+																</td>
+															</tr>
+														</table>
+													</div>
+											<!--[if (gte mso 9)|(IE)]>
+											</td>
+											<td width="20" style="font-size: 1px;">&nbsp;</td>
+											<td align="left" valign="middle" width="360">
+											<![endif]-->
+													<div style="display:inline-block;margin:0 0 20px 0;max-width:70%; min-width:200px; vertical-align:middle;width:100%;" class="wrapper">
+														<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:370px;" class="wrapper">
+															<tr>
+																<td align="left" style="padding: 10px 0 10px 0;" class="subheader">Protect valuable assets with mobile first, real-time monitoring</td>
+															</tr>
+															<tr>
+																<td align="left" style="padding: 0px 0px 20px 0px;margin:0px;" class="body-text">SafetyCulture's range of sensors are an effective way to monitor real-time changes in temperature or humidity sensitive areas, and receive automatic alerts for when conditions go outside set ranges.</td>
+															</tr>
+															<tr>
+																<td align="left" style="padding: 0px 0px 20px 0px;margin:0px;" class="body-text">Reduce asset-loss. Reduce time spent on manual checks.</td>
+															</tr>
+															<tr>
+																<td align="left" style="padding: 0px 0px 20px 0px">
+																	<!-- BULLETPROOF BUTTON -->
+																	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																		<tr>
+																			<td align="left" >
+																				<table border="0" cellspacing="0" cellpadding="0" >
+																					<tr>
+																						<td align="center" class="button secondary" style="border:1px solid #182C4F;"><a href="https://safetyculture.com/monitoring/" style="color:#182C4F; text-decoration:none;">Learn more about Sensors</a></td>
+																					</tr>
+																				</table>
+																			</td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
+													</div>
+											<!--[if (gte mso 9)|(IE)]>
+											</td>
+											</tr>
+											</table>
+											<![endif]-->
+										</td>
+									</tr>
+								</table>
+								<!--[if (gte mso 9)|(IE)]>
+								</td>
+								</tr>
+								</table>
+								<![endif]-->
+							</td>
+						</tr>
+
+						<!--/ROWS-->
+					</table>
+				</td>
+			</tr>
+		</table>
+		<!--[if (gte mso 9)|(IE)]>
+		</td>
+		</tr>
+		</table>
+		<![endif]-->
+	</td>
+	</tr><!--/TERTIARY - SC CERTIFIED-->
+'''
+
+t_community = '''
+	<tr>
+        <td bgcolor="#F4F7FE" class="outer" align="center" style="padding:0px;" >
+            <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+            <tr>
+            <td align="center" valign="middle" width="600">
+            <![endif]-->
+			<table width="100%" style="max-width:600px;" bgcolor="#ffffff" class="responsive-table"><tr><td style="padding-top:20px;">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%"  style="border-top: 1px solid #BFC5D4;border-bottom: 1px solid #BFC5D4;">
+				<tr>
+					<td align="center" class="section-padding tricolor responsive-table" bgcolor="#D9DBFF">
+						<!--[if (gte mso 9)|(IE)]>
+						<table align="center" border="0" cellspacing="0" cellpadding="0" width="540">
+						<tr height="30">
+						<td align="center" valign="middle" width="540">
+						<![endif]-->
+						<table bgcolor="" height="50" border="0" cellpadding="0" cellspacing="0" width="100%" class="inner-block">
+                            <tr>
+								<td align="center" style="padding: 30px 0 10px 0;" class="content-header">Join the Community 🚀</td>
+							</tr>
+								<tr>
+									<td align="center" style="padding: 0px 0 30px 0;" class="body-text">Looking to get more out of SafetyCulture? <a href="https://community.safetyculture.com/">Join our Community</a> to share your thoughts, get inspiration, and discuss best practice.</td>
+								</tr>
+						</table>
+						<!--[if (gte mso 9)|(IE)]>
+						</td>
+						</tr>
+						</table>
+						<![endif]-->
+					</td>
+				</tr>
+            </table>
+			</td></tr></table>
+			
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
 '''

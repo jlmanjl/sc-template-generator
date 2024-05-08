@@ -14,8 +14,8 @@ p1_small = '''
 					<td align="center" class="header-padding">
                         <table bgcolor="#F0F0FF" width="100%" border="0" cellspacing="0" cellpadding="5" height="" style="border-radius: 8px;" class="outer responsive-table">
                             <tr>
-								<td align="left" style="padding:20px 0px 0px 0px;" valign="bottom">
-									<img src="https://safetyculture.com/_next/image/?url=https%3A%2F%2Fwp-website.safetyculture.com%2Fwp-content%2Fuploads%2Fsites%2F3%2F2023%2F11%2Fplatform-app-hero-FA.png&w=3840&q=75" width="590" border="0" alt="Our customers" class="banner-image">
+								<td align="left" style="padding:20px;" valign="bottom">
+									<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fcf728e066f03e8ac228de/original.png?1660745512" width="590" border="0" alt="Our customers" class="banner-image">
 								</td>
 							</tr>
                         </table>
@@ -25,10 +25,10 @@ p1_small = '''
                 <tr>
                     <td class="section-padding">
 						<!--[if (gte mso 9)|(IE)]>
-						<table align="center" border="0" cellspacing="0" cellpadding="0" width="520">
+						<table align="center" border="0" cellspacing="0" cellpadding="0" width="540">
 						<tr height="24">&nbsp;</tr>
 						<tr>
-						<td align="center" valign="middle" width="520">
+						<td align="center" valign="middle" width="540">
 						<![endif]-->
                         <table width="100%" border="0" cellspacing="0" cellpadding="0" class="inner-block">
                             <tr>
@@ -75,7 +75,7 @@ p1_small = '''
 '''
 
 p1_wide = '''
-<tr><!--P1 PRIMARY -->
+    <tr><!--P1 PRIMARY -->
         <td bgcolor="#F4F7FE" class="outer" align="center" style="padding:0px;" >
             <!--[if (gte mso 9)|(IE)]>
             <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
@@ -97,16 +97,13 @@ p1_wide = '''
                     </td>
 				</tr>
 				
-				
-				
-				
                 <tr>
                     <td class="section-padding">
 						<!--[if (gte mso 9)|(IE)]>
-						<table align="center" border="0" cellspacing="0" cellpadding="0" width="520">
+						<table align="center" border="0" cellspacing="0" cellpadding="0" width="540">
 						<tr height="24">&nbsp;</tr>
 						<tr>
-						<td align="center" valign="middle" width="520">
+						<td align="center" valign="middle" width="540">
 						<![endif]-->
                         <table width="100%" border="0" cellspacing="0" cellpadding="0" class="inner-block">
                             <tr>

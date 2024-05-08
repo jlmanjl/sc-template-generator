@@ -1,10 +1,14 @@
-from flask import Flask, request, render_template, Response
+from flask import Flask, request, render_template, Response, redirect
 from email_blocks import core_blocks, primary_blocks, secondary_blocks, tertiary_blocks
 from inapp_blocks import core_code, inapp_slides
 
 
 app = Flask(__name__)
 
+@app.route("/") 
+def redirect_internal():
+    return redirect("/emails", code=302)
+        
 @app.route("/emails", methods=['GET', 'POST'])
 def emails():
     return render_template(
@@ -25,7 +29,10 @@ def emails():
     t_inbounddemo = tertiary_blocks.t_inbounddemo,
     t_livewebinars = tertiary_blocks.t_livewebinars,
     t_integrations = tertiary_blocks.t_integrations,
-    t_freeseats = tertiary_blocks.t_freeseats
+    t_freeseats = tertiary_blocks.t_freeseats,
+    t_sensors = tertiary_blocks.t_sensors,
+    t__community = tertiary_blocks.t_community,
+    triline = core_blocks.triline
     )
     
 @app.route("/email-download", methods=['GET', 'POST'])
@@ -39,12 +46,9 @@ def email_download():
         complete_output,
         mimetype="text",
         headers={"Content-disposition":
-            "attachment; filename=template_output.html"} 
+            "attachment; filename=email_template_output.html"} 
     )
-    
-@app.route("/") 
-def default(): 
-    return render_template("emails.html") 
+
       
 @app.route("/inapps", methods=['GET','POST'])
 def inapps(): 
@@ -75,14 +79,12 @@ def inapps():
         us = core_code.userscoring_package,
         swipe = core_code.swiper_package    
     )
-    
   
 @app.route("/inapp-download", methods=['GET', 'POST'])
 def inapp_download():
     top_list = request.form.getlist('top')
     slide_list = request.form.getlist('slide')
     
-
     top_output = ''.join(top_list)
     slide_output = ''.join(slide_list)
     
@@ -92,7 +94,7 @@ def inapp_download():
         complete_output,
         mimetype="text",
         headers={"Content-disposition":
-            "attachment; filename=template_output.html"} 
+            "attachment; filename=inapp_template_output.html"} 
     )
        
         

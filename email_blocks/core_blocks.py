@@ -13,23 +13,26 @@ email_top = '''
 <!--[if !mso]><!-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@800&display=swap" rel="stylesheet">
 <!--<![endif]-->
 
 
 <!--{{content_blocks.${template-randomiser-email}}}
 {{content_blocks.${core-formatting-blocks}}}-->
+	
+<!--
+{% assign use_seed_list = false %}{% assign mode = 'indicator-1' %}{{content_blocks.${segmentation-template-indicators}}}
+-->
 
-<!-----------EMAIL TEMPLATE V1.9.3---------------->
+
+<!-----------EMAIL TEMPLATE V24.09---------------->
 <style type="text/css" media="screen">
 	
-	/* TEXT STYLES */
 	/* TEXT STYLES */
 	@font-face {
 		font-family: 'Poppins';
 		font-style: normal;
-		font-weight: 400;
+		font-weight: 800;
 		font-display: swap;
 		src: url(Poppins.woff2) format('woff2');
 		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -52,13 +55,13 @@ email_top = '''
 	.highlighter{font-family: inherit!important;}
 	.highlighter{color:#6559ff;}
 	a{color:#6559ff;}
-	.body-text{font-size: 15px; line-height: 25px;color:#081833;}
+	.body-text{font-size: 15px; line-height: 25px;color:#293745;}
 	.small-text{font-size: 13px;}
-	.label{font-size: 12px; line-height: 25px;color:#081833;}
-	.mainheader{font-size: 23px;font-weight: 700;color:#081833;}
-	.subheader{font-size: 20px;font-weight: 700;color:#081833;line-height:25px;}
-	.content-header{font-size: 16px;font-weight: 700;margin: 0px 0px 10px 0px;display: inline-block;}
-	.card-header{font-size: 15px;font-weight: 700;margin: 0px 0px 8px 0px;display: inline-block;}
+	.label{font-size: 12px; line-height: 25px;color:#293745;}
+	.mainheader{font-size: 23px;font-weight: 800;color:#293745;}
+	.subheader{font-size: 20px;font-weight: 800;color:#293745;line-height:25px;}
+	.content-header{font-size: 16px;font-weight: 800;}
+	.card-header{font-size: 15px;font-weight: 800;}
 	.white{color: #ffffff;}
 	.purple{color:#6559ff;}
 	.cyan{color:#00D1FF;}
@@ -83,16 +86,16 @@ email_top = '''
 	/* LAYOUT STYLES */
 	.responsive-table, .footer-table{width:100%;max-width:600px;margin:auto;}
 	.section-padding{padding:20px 20px 10px 20px;}
-	.inner-block{max-width:520px;margin:auto;}
+	.inner-block{max-width:550px;margin:auto;}
 	.header-padding{padding:5px;}
 	.tertiary-cta{padding:20px 0;border-radius: 8px;}
 	.row-content{border-radius: 8px;padding: 20px 0px 20px 0px;background:#F4F7FE;}
-	.row-content.white-bg{background:#ffffff;padding: 10px 10px 10px 10px;}
+	.row-content.white-bg{background:#ffffff;padding: 10px 0px 10px 0px;}
 	
 	/* IMAGE STYLES */
 	.row-image, .row-image-small, .row-text, .img-max, .row-image-mid{width:100%;}
 	.row-image, .row-image-small{padding:10px 0px 10px 0px;}
-	.row-image{max-width:180px;}
+	.row-image{max-width:200px;}
 	.row-image-mid{max-width:140px;}
 	.row-image-small{max-width:100px;}
 	.banner-image{width:100%;max-width:590px;vertical-align: bottom;}
@@ -100,17 +103,18 @@ email_top = '''
 	
 	/* BACKGROUND STYLES */
 	.bold{background: #6559FF;max-width: 580px;margin: auto;border-radius: 8px;}
-	.gradient{background:#84CEF2;background-image:linear-gradient(0deg,rgba(0,0,0,0) 35%,#948EFF 70%);}
-	.gold-cta{background-color:gold;}
-	.tricolor{background:#6559FF;background-image:linear-gradient(-45deg,rgba(0,0,0,0) 67%,#6559FF 67%), linear-gradient(-45deg,rgba(0,0,0,0) 33%,#14CAFF 33%), linear-gradient(-45deg,rgba(0,0,0,0) 0%,#FFD700 0%);}
+	.tricolor{background:#F0F0FE;background-image: url('https://comms.safetyculture.com/sc-bg.svg');background-size: cover;background-repeat: no-repeat;}
+	
+	
+	
 	
 	/* PL TEMPLATES */
 	.pl-template img {float:left; border-radius: 8px 0 0 8px;}
 	.pl-template a {text-decoration: underline; color: #182C4F;}
 	.pl-template-box {margin:3px;}
 	.pl-template-label{padding: 0px; font-size: 13px;}
-	.pl-template-image{display: block; color: #081833;width: 50px; height: 50px;padding:15px;}
-	.pl-template{border-radius: 8px;margin:0px;border: 1px solid #E9EEF6;border-collapse: separate!important;}		
+	.pl-template-image{display: block; color: #293745;width: 50px; height: 50px;padding:15px;}
+	.pl-template{border-radius: 8px;margin:0px;border: 1px solid #E9EEF6;border-collapse: separate!important;height:110px;}		
 	
 	/* MOBILE STYLES */
 	@media only screen and (max-device-width: 525px), only screen and (max-width: 525px) {
@@ -122,7 +126,7 @@ email_top = '''
 	}
 	/* DARK MODE */
 	@media (prefers-color-scheme:dark) {
-		.body-text, .label, .mainheader, .subheader, .content-header, .card-header, .pl-template , td, p, a{ color:#ffffff!important; }
+		.body-text, .label, .mainheader, .subheader, .content-header, .card-header, .pl-template , td, p, a, span{ color:#ffffff!important; }
 		.highlighter{ color:#00D1FF!important; }
 		.responsive-table {background-color:#344563;}
 		body, .outer, .card, .tertiary-cta, .pl-template, .image-banner, .gold-cta, .row-content{background-color: #505F79!important;}
@@ -140,123 +144,11 @@ email_top = '''
 <body style="margin: auto!important; padding: 0!important;">
 <table border="0" cellpadding="0" cellspacing="0" width="600" style="width:100%!important;">
 
-    <tr><!--HEADER -->
-        <td bgcolor="#F4F7FE" class="outer" align="center" style="padding:0px;" >
-            <!--[if (gte mso 9)|(IE)]>
-            <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
-            <tr>
-            <td align="center" valign="middle" width="600">
-            <![endif]-->
-			<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%" class="responsive-table ">
-				<tr>
-					<td align="center" class="">
-						<table bgcolor="" border="0" cellpadding="0" cellspacing="0" width="100%">
-							<tr>
-								<td align="left" valign="middle" width="50%" style="font-size:5px;width:50%;">
-									{{content_blocks.${core-block-email-logo-primary}}}
-								</td>
-								<td align="right" valign="middle" width="50%" style="padding:15px;width:50%;" class="mobile-hide">
-									<!-- BULLETPROOF BUTTON -->
-									<table width="100%" border="0" cellspacing="0" cellpadding="0">
-										<tr>
-											<td align="right">
-												<table border="0" cellspacing="0" cellpadding="0">
-													<tr>
-														{{content_blocks.${core-block-email-iauditor-button}}}
-													</tr>
-												</table>
-											</td>
-										</tr>
-									</table>
-								</td>
-
-							</tr>
-						</table>
-					</td>
-				</tr>				
-            </table>
-            <!--[if (gte mso 9)|(IE)]>
-            </td>
-            </tr>
-            </table>
-            <![endif]-->
-        </td>
-    </tr><!--/HEADER -->
+    {{content_blocks.${core-block-email-header-standard}}}
 '''
 
 email_bottom = '''
-	<!-----------FOOTER CONTENT---------------->
-	
-    <tr><!--APPSTORELINKS-->
-        <td bgcolor="#F4F7FE" class="outer" align="center" style="padding:0px;" >
-            <!--[if (gte mso 9)|(IE)]>
-            <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
-            <tr>
-            <td align="center" valign="middle" width="600">
-            <![endif]-->
-            <table bgcolor="#ffffff" border="0" cellpadding="20" cellspacing="0" width="100%" class="responsive-table ">
-				<tr>
-					<td align="center"  valign="middle" width="100%" class="section-padding">
-						<!--[if (gte mso 9)|(IE)]>
-						<table align="center" border="0" cellspacing="0" cellpadding="0" width="320">
-						<tr>
-						<td align="center" valign="middle" width="320">
-						<![endif]-->
-						<table class="mobile-center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:400px;">
-							<tr>
-								<td align="center" valign="middle" style="font-size:8px;padding;20px;">
-									<!--[if (gte mso 9)|(IE)]>
-									<table align="center" border="0" cellspacing="0" cellpadding="0" width="320">
-									<tr>
-									<td align="center" valign="middle" width="160">
-									<![endif]-->
-									<div style="display:inline-block; margin: 0 0px; max-width:48%; min-width:160px; vertical-align:top;width:100%;" class="wrapper">
-										<table align="center" border="0" cellpadding="3" cellspacing="0" width="100%" style="max-width:160px;" class="wrapper">
-											<tr>
-												<td align="center" valign="middle">
-													{{content_blocks.${appstore-link-email}}}
-												</td>
-											</tr>
-										</table>
-									</div>
-									<!--[if (gte mso 9)|(IE)]>
-									</td>
-									<td width="20" style="font-size: 1px;">&nbsp;</td>
-									<td align="center" valign="middle" width="160">
-									<![endif]-->
-									<div style="display:inline-block; margin: 0 0px; max-width:48%; min-width:160px; vertical-align:top;width:100%;" class="wrapper">
-										<table align="center" border="0" cellpadding="3" cellspacing="0" width="100%" style="max-width:160px;" class="wrapper">
-											<tr>
-												<td align="center" valign="middle">
-													{{content_blocks.${googleplay-link-email}}}
-												</td>
-											</tr>
-										</table>
-									</div>
-									<!--[if (gte mso 9)|(IE)]>
-									</td>
-									</tr>
-									</table>
-									<![endif]-->
-								</td>
-							</tr>
-						</table>
-						<!--[if (gte mso 9)|(IE)]>
-						</td>
-						</tr>
-						</table>
-						<![endif]-->
-					</td>
-				</tr>
-            </table>
-            <!--[if (gte mso 9)|(IE)]>
-            </td>
-            </tr>
-            </table>
-            <![endif]-->
-        </td>
-    </tr><!--APPSTORELINKS-->
-    <tr>
+	<tr>
         <td bgcolor="#F4F7FE" class="outer" align="center">
             <table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600" class="responsive-table "><tr><td align="center" style="padding-top:40px;">
 			<!-- UNSUBSCRIBE COPY -->
@@ -269,128 +161,30 @@ email_bottom = '''
 			</table>
 			</td></tr></table>
         </td>
-	</tr>
-    <tr>
-        <td bgcolor="#F4F7FE" align="center" class="outer section-padding">
-            <!--[if (gte mso 9)|(IE)]>
-            <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
-            <tr>
-            <td align="center" valign="middle"valign="middle" width="600">
-            <![endif]-->
-            <!-- UNSUBSCRIBE COPY -->
-            <table width="600" border="0" cellspacing="0" cellpadding="10" align="center" class="footer-table">
-                <tr>
-                    <td align="center" style="font-size: 10px; line-height: 18px;  color:#666666;padding: 20px 0;">
-						{{content_blocks.${email-local-footer}}}
-					</td>
-				</tr>
-                <tr>
-                    <td align="center">
-						{{content_blocks.${core-block-email-logo-gre}}}
-                    </td>
-                </tr>
-            </table>
-            <!--[if (gte mso 9)|(IE)]>
-            </td>
-            </tr>
-            </table>
-            <![endif]-->
-        </td>
-    </tr>
+	</tr>	
+	<!-----------FOOTER CONTENT---------------->
+ 
+	{{content_blocks.${core-block-email-footer-standard}}}
+		
 	
 </table>
 </body>
 </html>
 '''
 
-p1_primary = '''
-<tr><!--P1 PRIMARY -->
-        <td bgcolor="#F4F7FE" class="outer" align="center" style="padding:0px;" >
-            <!--[if (gte mso 9)|(IE)]>
-            <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
-            <tr>
-            <td align="center" valign="middle" width="600">
-            <![endif]-->
-            <table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%" class="responsive-table ">
-				
-				
-				<!-- OPTION 1 BANNER IMAGE SMALL: USE THIS FOR NON-FULL WIDTH IMAGES -->
-				<tr>
-					<td align="center" class="header-padding">
-                        <table bgcolor="#F0F0FF" width="100%" border="0" cellspacing="0" cellpadding="5" height="" style="border-radius: 8px;" class="outer responsive-table">
-                            <tr>
-								<td align="left" style="padding:20px 0px 0px 0px;" valign="bottom">
-									<img src="https://safetyculture.com/wp-content/media/2021/11/better-performance-powered-by-observation-safetyculture.png" width="590" border="0" alt="Our customers" class="banner-image">
-								</td>
-							</tr>
-                        </table>
-                    </td>
-				</tr>
-
-				<!-- OPTION 2 BANNER IMAGE WIDE: USE THIS FOR FULL WIDTH -->
-				<tr>
-					<td align="center" class="header-padding">
-                        <table bgcolor="#ffffff" width="100%" border="0" cellspacing="0" cellpadding="5" height="" style="border-radius: 8px;" class="outer">
-                            <tr>
-								<td align="left" style="padding:0px;" valign="bottom">
-									<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fcf728e066f03e8ac228de/original.png?1660745512" width="590" border="0" alt="Our customers" class="banner-image">
-								</td>
-							</tr>
-                        </table>
-                    </td>
-				</tr>
-				
-				
-				
-				
-                <tr>
-                    <td class="section-padding">
-						<!--[if (gte mso 9)|(IE)]>
-						<table align="center" border="0" cellspacing="0" cellpadding="0" width="520">
-						<tr height="24">&nbsp;</tr>
-						<tr>
-						<td align="center" valign="middle" width="520">
-						<![endif]-->
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="inner-block">
-                            <tr>
-								<td align="left" style="padding: 0px 0 10px 0;" class="mainheader">Primary banner block</td>
-							</tr>
-                            <tr>
-								<td align="left" style="padding: 10px 0px 0px 0px;" class="body-text">Lorem ipsum dolor sit amet <span class="highlighter">{{${first_name} | strip_html}}</span>, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.</td>
-							</tr>
-                            <tr>
-								<td align="left" style="padding: 10px 0px 0px 0px;" class="body-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.</td>
-							</tr>
-                            <tr>
-                                <td align="left" style="padding: 20px 0px 0px 0px">
-                                    <!-- BULLETPROOF BUTTON -->
-                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                        <tr>
-                                            <td align="left" >
-                                                <table border="0" cellspacing="0" cellpadding="0" >
-                                                    <tr>
-														<td align="center" bgcolor="#6559FF" target="_blank" class="button"><a href="{{region-domain}}/schedule" style="color:#ffffff; text-decoration:none;">Aenean nec lorem</a></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-						<!--[if (gte mso 9)|(IE)]>
-						</td>
-						</tr>
-						</table>
-						<![endif]-->
-                    </td>
-                </tr>
-            </table>
-            <!--[if (gte mso 9)|(IE)]>
-            </td>
-            </tr>
-            </table>
-            <![endif]-->
+triline = '''
+	<tr>
+        <td bgcolor="#F4F7FE" class="outer" align="center">
+            <table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600" class="responsive-table "><tr><td align="center" style="padding-top:40px;">
+			<!-- UNSUBSCRIBE COPY -->
+			<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" height="6" class="responsive-table">
+				<tbody>
+					<tr>
+						<td align="left" class="tricolor" width="600" style="width:100%;font-size:4px" bgcolor="#6559ff">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			</td></tr></table>
         </td>
-    </tr><!--/P1 PRIMARY-->	
+	</tr>	
 '''
