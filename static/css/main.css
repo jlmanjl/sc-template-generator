@@ -168,3 +168,6 @@ span {
     transform-origin: bottom left;
 }
 
+.slide-preview {
+    padding-bottom: 8px;
+}

@@ -74,7 +74,6 @@ def inapps():
         w92 = inapp_slides.w92,
         w101 = inapp_slides.w101,
         w111 = inapp_slides.w111,
-        w112 = inapp_slides.w112,
         tt = core_code.tooltip_package,
         us = core_code.userscoring_package,
         swipe = core_code.swiper_package    
@@ -98,6 +97,5 @@ def inapp_download():
     )
        
         
-# if __name__ == '__main__':
-#     app.run(debug = True)
+
 
