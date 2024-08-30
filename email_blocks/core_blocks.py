@@ -24,8 +24,7 @@ email_top = '''
 {% assign use_seed_list = false %}{% assign mode = 'indicator-1' %}{{content_blocks.${segmentation-template-indicators}}}
 -->
 
-
-<!-----------EMAIL TEMPLATE V24.09---------------->
+<!-----------EMAIL TEMPLATE V24.31---------------->
 <style type="text/css" media="screen">
 	
 	/* TEXT STYLES */
@@ -91,6 +90,9 @@ email_top = '''
 	.tertiary-cta{padding:20px 0;border-radius: 8px;}
 	.row-content{border-radius: 8px;padding: 20px 0px 20px 0px;background:#F4F7FE;}
 	.row-content.white-bg{background:#ffffff;padding: 10px 0px 10px 0px;}
+	.alternate {direction: rtl;padding-left: 20px;}
+    .alternate>.wrapper>.row-text {direction: ltr;padding: 0px 0px 0px 0px
+    }
 	
 	/* IMAGE STYLES */
 	.row-image, .row-image-small, .row-text, .img-max, .row-image-mid{width:100%;}
@@ -123,6 +125,7 @@ email_top = '''
 		.mobile-left {text-align:left!important;}
 		.mobile-hide{display:none!important;}
 		.row-content{padding: 20px 10px 20px 10px!important;}
+		.alternate {direction: ltr!important;text-align: left!important;}
 	}
 	/* DARK MODE */
 	@media (prefers-color-scheme:dark) {
@@ -148,43 +151,24 @@ email_top = '''
 '''
 
 email_bottom = '''
+<!-----------FOOTER CONTENT---------------->
+	<!--triline-->
 	<tr>
         <td bgcolor="#F4F7FE" class="outer" align="center">
-            <table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600" class="responsive-table "><tr><td align="center" style="padding-top:40px;">
-			<!-- UNSUBSCRIBE COPY -->
-			<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" height="6" class="responsive-table">
-				<tbody>
-					<tr>
-						<td align="left" class="tricolor" width="600" style="width:100%;font-size:4px" bgcolor="#6559ff">&nbsp;</td>
-					</tr>
-				</tbody>
+			<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600" class="responsive-table ">
+				<tr>
+					<td align="center" style="padding-top:40px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" height="6" class="responsive-table">
+							<tbody>
+								<tr>
+									<td align="left" class="tricolor" width="600" style="width:100%;font-size:4px" bgcolor="#6559ff">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+					</td>
+				</tr>
 			</table>
-			</td></tr></table>
         </td>
 	</tr>	
-	<!-----------FOOTER CONTENT---------------->
- 
 	{{content_blocks.${core-block-email-footer-standard}}}
-		
-	
-</table>
-</body>
-</html>
-'''
-
-triline = '''
-	<tr>
-        <td bgcolor="#F4F7FE" class="outer" align="center">
-            <table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600" class="responsive-table "><tr><td align="center" style="padding-top:40px;">
-			<!-- UNSUBSCRIBE COPY -->
-			<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" height="6" class="responsive-table">
-				<tbody>
-					<tr>
-						<td align="left" class="tricolor" width="600" style="width:100%;font-size:4px" bgcolor="#6559ff">&nbsp;</td>
-					</tr>
-				</tbody>
-			</table>
-			</td></tr></table>
-        </td>
-	</tr>	
 '''

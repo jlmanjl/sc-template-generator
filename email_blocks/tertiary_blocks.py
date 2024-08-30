@@ -290,7 +290,7 @@ t_csrequest = '''
 								<![endif]-->
 							</td>
 						</tr>
-      
+
 						<!--/ROWS-->
 					
 						<tr>
@@ -373,7 +373,7 @@ t_csrequest = '''
 											</tr>
 											</table>
 											<![endif]-->
-           
+
 										</td>
 									</tr>
 								</tbody></table>
@@ -384,6 +384,7 @@ t_csrequest = '''
 								<![endif]-->
 							</td>
 						</tr>							
+
 						<!--/ROWS-->
 
 					</table>
@@ -928,9 +929,11 @@ t_sensors = '''
 						</tr>
 
 						<!--/ROWS-->
+
 					</table>
 				</td>
 			</tr>
+
 		</table>
 		<!--[if (gte mso 9)|(IE)]>
 		</td>
@@ -938,7 +941,7 @@ t_sensors = '''
 		</table>
 		<![endif]-->
 	</td>
-	</tr><!--/TERTIARY - SC CERTIFIED-->
+	</tr><!--/TERTIARY - SENSORS-->
 '''
 
 t_community = '''

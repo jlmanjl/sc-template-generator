@@ -4,6 +4,7 @@ var p1WidePreview = '<img id="p1-wide" src="https://braze-images.com/appboy/comm
 
 var s1Preview = '<img id="s1" src="https://braze-images.com/appboy/communication/assets/image_assets/images/663aee451ed9be005972f72f/original.png?1715138117" alt="s1">'
 var s2Preview = '<img id="s2" src="https://braze-images.com/appboy/communication/assets/image_assets/images/663aee46cea9aa0059194e82/original.png?1715138118" alt="s2">'
+var s21Preview = '<img id="s21" src="https://braze-images.com/appboy/communication/assets/image_assets/images/663aee46cea9aa0059194e82/original.png?1715138118" alt="s21">'
 var s3Preview = '<img id="s3" src="https://braze-images.com/appboy/communication/assets/image_assets/images/663aee46cbc2a10059715832/original.png?1715138118" alt="s3">'
 var s4Preview = '<img id="s4" src="https://braze-images.com/appboy/communication/assets/image_assets/images/663aee46385448005843abc2/original.png?1715138118" alt="s4">'
 var s5Preview = '<img id="s5" src="https://braze-images.com/appboy/communication/assets/image_assets/images/663aee47292c7e00583ea2d2/original.png?1715138119" alt="s5">'
@@ -22,8 +23,10 @@ var tSensorsPreview = '<img id="t_sensors" src="https://braze-images.com/appboy/
 var tCommunityPreview = '<img id="t_community" src="https://braze-images.com/appboy/communication/assets/image_assets/images/663aee4798058b0058b579bd/original.png?1715138118" alt="t_community">'
 
 // IN-APP SLIDES PREVIEWS
+var w1LinkPreview = '<img class="slide-preview" id="w1" src="https://braze-images.com/appboy/communication/assets/image_assets/images/66418789a49de900632f958f/original.jpg?1715570568" alt="w1">'
 var w1Preview = '<img class="slide-preview" id="w1" src="https://braze-images.com/appboy/communication/assets/image_assets/images/66418789a49de900632f958f/original.jpg?1715570568" alt="w1">'
 var w1ToolPreview = '<img class="slide-preview" id="w1-tooltips" src="https://braze-images.com/appboy/communication/assets/image_assets/images/66418789aff54e0062a1620f/original.jpg?1715570568" alt="w1-tooltips">'
+var w1ScrollPreview = '<img class="slide-preview" id="w1" src="https://braze-images.com/appboy/communication/assets/image_assets/images/66418789a49de900632f958f/original.jpg?1715570568" alt="w1">'
 var w2Preview = '<img class="slide-preview" id="w2" src="https://braze-images.com/appboy/communication/assets/image_assets/images/66418789b067440058eb22bc/original.jpg?17155705688" alt="w2">'
 var w41Preview = '<img class="slide-preview" id="w41" src="https://braze-images.com/appboy/communication/assets/image_assets/images/6641878a3c4951005936b2ce/original.jpg?1715570569" alt="w41">'
 var w42Preview = '<img class="slide-preview" id="w42" src="https://braze-images.com/appboy/communication/assets/image_assets/images/6641878ac10df90058e1cfed/original.jpg?1715570569" alt="w42">'
@@ -33,10 +36,8 @@ var w62Preview = '<img class="slide-preview" id="w62" src="https://braze-images.
 var w63Preview = '<img class="slide-preview" id="w63" src="https://braze-images.com/appboy/communication/assets/image_assets/images/66418789ff029000581db30d/original.jpg?1715570569" alt="w63">'
 var w64Preview = '<img class="slide-preview" id="w64" src="https://braze-images.com/appboy/communication/assets/image_assets/images/6641878ab027b2005a08cc85/original.jpg?1715570569" alt="w64">'
 var w65Preview = '<img class="slide-preview" id="w65" src="https://braze-images.com/appboy/communication/assets/image_assets/images/66418789cf719000592ffdf6/original.jpg?1715570569" alt="w65">'
-var w67Preview = '<img class="slide-preview" id="w67" src="https://braze-images.com/appboy/communication/assets/image_assets/images/6641878b4d11230059af8ff1/original.jpg?1715570570" alt="w67">'
 var w7Preview = '<img class="slide-preview" id="w7" src="https://braze-images.com/appboy/communication/assets/image_assets/images/6641878aa49de9005930e519/original.jpg?1715570569" alt="w7">'
 var w81Preview = '<img class="slide-preview" id="w81" src="https://braze-images.com/appboy/communication/assets/image_assets/images/6641878b40cbbc0079d1517f/original.jpg?1715570571" alt="w81">'
-var w82Preview = '<img class="slide-preview" id="w82" src="https://braze-images.com/appboy/communication/assets/image_assets/images/6641878bcd0d360058958368/original.jpg?1715570570" alt="w82">'
 var w83Preview = '<img class="slide-preview" id="w83" src="https://braze-images.com/appboy/communication/assets/image_assets/images/6641878ad22aa80059bddbae/original.jpg?1715570569" alt="w83">'
 var w91Preview = '<img class="slide-preview" id="w91" src="https://braze-images.com/appboy/communication/assets/image_assets/images/6641878b567a1100581fab4c/original.jpg?1715570570" alt="w91">'
 var w92Preview = '<img class="slide-preview" id="w92" src="https://braze-images.com/appboy/communication/assets/image_assets/images/6641878bc8199e005af2dfd5/original.jpg?1715570570" alt="w92">'
@@ -70,6 +71,7 @@ var previews = [
     ["p1-wide", p1WidePreview],
     ["s1", s1Preview],
     ["s2", s2Preview],
+    ["s21", s21Preview],
     ["s3", s3Preview],
     ["s4", s4Preview],
     ["s5", s5Preview],
@@ -85,7 +87,9 @@ var previews = [
     ["t_sensors", tSensorsPreview],
     ["t_community", tCommunityPreview],
     ["w1", w1Preview],
+    ["w1_link_tracking", w1LinkPreview],
     ["w1_tooltips", w1ToolPreview],
+    ["w1_scrolling", w1ScrollPreview],
     ["w2", w2Preview],
     ["w41", w41Preview],
     ["w42", w42Preview],
@@ -95,10 +99,8 @@ var previews = [
     ["w63", w63Preview],
     ["w64", w64Preview],
     ["w65", w65Preview],
-    ["w67", w67Preview],
     ["w7", w7Preview],
     ["w81", w81Preview],
-    ["w82", w82Preview],
     ["w83", w83Preview],
     ["w91", w91Preview],
     ["w92", w92Preview],
