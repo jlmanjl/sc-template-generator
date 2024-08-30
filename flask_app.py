@@ -17,6 +17,7 @@ def emails():
     p1_wide = primary_blocks.p1_wide,
     s1 = secondary_blocks.s1,
     s2 = secondary_blocks.s2,
+    s21 = secondary_blocks.s21,
     s3 = secondary_blocks.s3,
     s4 = secondary_blocks.s4,
     s5 = secondary_blocks.s5,
@@ -31,8 +32,7 @@ def emails():
     t_integrations = tertiary_blocks.t_integrations,
     t_freeseats = tertiary_blocks.t_freeseats,
     t_sensors = tertiary_blocks.t_sensors,
-    t__community = tertiary_blocks.t_community,
-    triline = core_blocks.triline
+    t__community = tertiary_blocks.t_community
     )
     
 @app.route("/email-download", methods=['GET', 'POST'])
@@ -49,13 +49,14 @@ def email_download():
             "attachment; filename=email_template_output.html"} 
     )
 
-      
 @app.route("/inapps", methods=['GET','POST'])
 def inapps(): 
     return render_template(
         'inapps.html',
+        w1_link_tracking = inapp_slides.w1_link_tracking,
         w1 = inapp_slides.w1,
         w1_tooltips = inapp_slides.w1_tooltips,
+        w1_scrolling = inapp_slides.w1_scrolling,
         w2 = inapp_slides.w2,
         w41 = inapp_slides.w41,
         w42 = inapp_slides.w42,
@@ -65,10 +66,8 @@ def inapps():
         w63 = inapp_slides.w63,
         w64 = inapp_slides.w64,
         w65 = inapp_slides.w65,
-        w67 = inapp_slides.w67,
         w7 = inapp_slides.w7,
         w81 = inapp_slides.w81,
-        w82 = inapp_slides.w82,
         w83 = inapp_slides.w83,
         w91 = inapp_slides.w91,
         w92 = inapp_slides.w92,
@@ -78,7 +77,7 @@ def inapps():
         us = core_code.userscoring_package,
         swipe = core_code.swiper_package    
     )
-  
+
 @app.route("/inapp-download", methods=['GET', 'POST'])
 def inapp_download():
     top_list = request.form.getlist('top')
@@ -94,8 +93,7 @@ def inapp_download():
         mimetype="text",
         headers={"Content-disposition":
             "attachment; filename=inapp_template_output.html"} 
-    )
-       
+    ) 
         
 
 

@@ -1,4 +1,5 @@
 p1_small = '''
+    <!-----------PRIMARY BLOCKS---------------->
     <tr><!--P1 PRIMARY -->
         <td bgcolor="#F4F7FE" class="outer" align="center" style="padding:0px;" >
             <!--[if (gte mso 9)|(IE)]>
@@ -20,7 +21,7 @@ p1_small = '''
 							</tr>
                         </table>
                     </td>
-				</tr>
+				</tr>				
 				
                 <tr>
                     <td class="section-padding">
@@ -75,6 +76,7 @@ p1_small = '''
 '''
 
 p1_wide = '''
+    <!-----------PRIMARY BLOCKS---------------->
     <tr><!--P1 PRIMARY -->
         <td bgcolor="#F4F7FE" class="outer" align="center" style="padding:0px;" >
             <!--[if (gte mso 9)|(IE)]>
