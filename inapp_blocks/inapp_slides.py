@@ -5,7 +5,7 @@ w1_link_tracking = '''
 						
 						<div class="block b-50">
 							<div class="text-container">
-								<h3><div class="number-bubble">3</div> Add <span class="underline-purple">Users</span> to your Groups</h3>
+								<h3><div class="number-bubble">3</div> Add <span class="highlighter">Users</span> to your Groups</h3>
 								<p class="message">Once set up with Permissions, you can assign your users to one or more groups to make sure they hit the ground running.</p>
 								<p class="message"><a class="click-track" data-trackinglabel="clicktracktest">Click track</a>.</p>
 								<p class="message"><a class="event-button" data-trackinglabel="eventbuttontestlabel" data-close="false">event-button</a>.</p>
@@ -35,7 +35,7 @@ w1 = '''
 						
 						<div class="block b-50">
 							<div class="text-container">
-								<h3><div class="number-bubble">3</div> Add <span class="underline-purple">Users</span> to your Groups</h3>
+								<h3><div class="number-bubble">3</div> Add <span class="highlighter">Users</span> to your Groups</h3>
 								<p class="message">Once set up with Permissions, you can assign your users to one or more groups to make sure they hit the ground running.</p>
 								<p class="message">Setting up groups makes it super easy to manage your team.</p>
 								<footer>
@@ -57,6 +57,35 @@ w1 = '''
 				</div>
 '''
 
+w1_scrolling = '''
+				<!-- W1: SCROLLING IMAGE (2-COL) -->
+				<div class="slick-slide" id="">
+					<div class="container ">
+						
+						<div class="block b-50">
+							<div class="text-container">
+								<h3><div class="number-bubble">3</div> Add <span class="highlighter">Users</span> to your Groups</h3>
+								<p class="message">Once set up with Permissions, you can assign your users to one or more groups to make sure they hit the ground running.</p>
+								<p class="message">Setting up groups makes it super easy to manage your team.</p>
+								<footer>
+									<div class="button bsecondary">
+										<a class="button-prev"><p>Prev</p></a>
+									</div>
+									<div class="button bprimary">
+										<a class="button-next" href="#"><p>Next</p></a>
+									</div>
+								</footer>
+							</div>
+						</div>
+						<div class="block b-50">	
+							<div class="main-image-container scrolling-image-container gradient-purp-blue">
+								<img class="scrolling-image" src="https://braze-images.com/appboy/communication/assets/image_assets/images/664d7c4f8f274f00593371c2/original.png?1716354127">
+							</div>						
+						</div>
+					</div>
+				</div>
+'''
+
 w1_tooltips = '''
 				<!-- W1: STATIC IMAGE (TOOLTIPS LAUNCHER) (2-COL) -->
 				<div class="slick-slide" id="">
@@ -65,7 +94,7 @@ w1_tooltips = '''
 						<div class="block b-50">
 							<div class="text-container">
 								{{content_blocks.${core-block-inapp-logo-primary}}}
-								<h3>Welcome to the <span class="underline-purple">iAuditor</span> web platform</h3>
+								<h3>Welcome to the <span class="highlighter">iAuditor</span> web platform</h3>
 								<p class="message">The iAuditor web platform is the complete tool for managing your digital inspection processes.</p>
 								<footer>
 									<div class="button bprimary">
@@ -86,34 +115,7 @@ w1_tooltips = '''
 				</div>
 '''
 
-w1_scrolling = '''
-				<!-- W1: SCROLLING IMAGE (2-COL) -->
-				<div class="slick-slide" id="">
-					<div class="container ">
-						
-						<div class="block b-50">
-							<div class="text-container">
-								<h3><div class="number-bubble">3</div> Add <span class="underline-purple">Users</span> to your Groups</h3>
-								<p class="message">Once set up with Permissions, you can assign your users to one or more groups to make sure they hit the ground running.</p>
-								<p class="message">Setting up groups makes it super easy to manage your team.</p>
-								<footer>
-									<div class="button bsecondary">
-										<a class="button-prev"><p>Prev</p></a>
-									</div>
-									<div class="button bprimary">
-										<a class="button-next" href="#"><p>Next</p></a>
-									</div>
-								</footer>
-							</div>
-						</div>
-						<div class="block b-50">	
-							<div class="main-image-container scrolling-image-container">
-								<img class="scrolling-image" src='https://braze-images.com/appboy/communication/assets/image_assets/images/664d7c4f8f274f00593371c2/original.png?1716354127'>
-							</div>						
-						</div>
-					</div>
-				</div>
-'''
+
 
 w2 = '''
 				<!-- W2 INLINE VIDEO (2-COL) -->
@@ -123,7 +125,7 @@ w2 = '''
 						<div class="block b-50">
 							<div class="text-container">
 								{{content_blocks.${core-block-inapp-logo-primary}}}
-								<h3>Welcome to the <span class="underline-cyan">iAuditor</span> web platform</h3>
+								<h3>Welcome to the <span class="highlighter">iAuditor</span> web platform</h3>
 								<p class="message">The iAuditor web platform is the complete tool for managing your digital inspection processes.</p>
 								<p class="message hide-500">Every template you create, and every report you generate is <span class="highlighter">available on both web and mobile</span>.</p>
 								<footer>
@@ -217,7 +219,7 @@ w5 = '''
 							<div class="vertical-container">
 								<div class="text-container">
 									<span class="top-label highlighter">Issues</span>
-									<h3>What if a <span class="underline-cyan">near miss</span> occurs on site?</h3>
+									<h3>What if a <span class="highlighter">near miss</span> occurs on site?</h3>
 									<p class="message">Near misses are significant. They can result in serious injury or damage.</p>
 									<p class="message">If a near miss occurs on site, how do you ensure it’s reported as soon and possible, while the details are still fresh?</p>
 									<p class="message">Here's how it’s done with Issues.</p>
@@ -230,7 +232,7 @@ w5 = '''
 								<div class="v-nav nav-up button-scroll-prev image-prev"></div>
 								<div class="text-container">
 									<span class="top-label highlighter hide-500">Issues</span>
-									<h3><span class="underline-cyan">Anyone</span> can log a near miss with their device</h3>
+									<h3><span class="highlighter">Anyone</span> can log a near miss with their device</h3>
 									<p class="message">If a near miss occurs on site, the quickest and most efficient way of reporting is for the worker to create a new <strong>Near Miss issue</strong> with their device by hitting the <strong>(+)</strong> in the SafetyCulture app.</p>
 									<p class="message">Even workers who don’t have a paid license can log a near miss and submit it to your team.</p>
 									<hr>
@@ -272,7 +274,7 @@ w5 = '''
 							</div>	
 						</div>
 					</div>
-				</div>	
+				</div>			
 '''
 
 
@@ -673,7 +675,7 @@ w81 = '''
 							<!--BLOCK 1-->
 							<div class="vertical-container">
 								<div class="text-container">
-									<h3>Never miss an inspection again with <span class="underline-cyan">Schedules</span></h3>
+									<h3>Never miss an inspection again with <span class="highlighter">Schedules</span></h3>
 									<p class="message">Set one-off or recurring reminders for those day-to-day inspections with Schedules.</p>
 									
 								
@@ -750,96 +752,139 @@ w81 = '''
 '''
 
 w83 = '''
-				<!-- W8.3 FLIP CARD SCROLLER (1-COL) -->
+				<!-- W8.3 FLIP CARD SWIPER (1-COL) -->
 				<div class="slick-slide" id="">
-					<div class="container ">
-						
-							<div class="block b-100">
-								<!--BLOCK 1-->
-								<div class="vertical-container">
-									<div class="text-container">
-										<h3>Conduct inspections, flag issues, and resolve problems together</h3>
-										<p class="message">Our bread and butter features being used over 50,000 times a day in over 85 countries.</p>
-										
-									<div class="select-button-block data-collect" data-evt="braze_option_response" data-key="selection">
-										<div class="scroll-nav-left"></div>
-										<div class="horizontal-scroller">
-											<a href="#" class="card light-purp flip-card-inner">
-												<div class="flip-card-front">
-													<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/64e6dbba52900e004d7eab4f/original.png?1692851130" alt="" height="110px">
-													<div class="button-text">
-														<h4><span class="highlighter">Inspections</span></h4><p>Raising your game starts with Inspections</p>
-														<p class="highlighter">Learn more</p>
+					<div class="container">
+						<div class="block b-100" style="margin-right:15px">
+							<!--BLOCK 1-->
+							<div class="text-container">
+								<h3>Lorem ipsum dolor</h3>
+								<p class="message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+								<div class="swiper">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div class="flip-card-inner">
+												<div class="flip-card flip-card-front light-grey">
+													<div>
+														<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/63b3b0b9513c641ccbd1d517/original.png?1672720569" alt="">
 													</div>
+													<h4><span class="highlighter">Inspections</span><br>Raising your game starts with a template</h4>
+													<footer>
+														<div class="button text-button">
+															<a href="#"><p>Learn more</p></a>
+														</div>
+													</footer>
 												</div>
-												<div class="flip-card-back">
-													<div class="button-text">
-														<h4 class="highlighter">Inspections</h4>
+												
+												<div class="flip-card flip-card-back light-grey">
+													<div class="message left">
+														<h4><span class="highlighter">Inspections</span></h4>
 														<p>Take the guesswork out of conducting checks. Add logic so only the questions that need to be answered show up, and enable repeated sections so inspectors can use the same set of questions as many times as they need to when inspecting different items.</p>
 													</div>
+													<footer class="center">
+														<div class="button text-button">
+															<a href="#"><p>Back</p></a>
+														</div>
+													</footer>
 												</div>
-											</a>
-											<a href="#" class="card light-purp flip-card-inner">
-												<div class="flip-card-front">
-													<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/64e6dbba468c16004d1a0b6e/original.png?1692851130" alt="" height="110px">
-													<div class="button-text">
-														<h4><span class="highlighter">Actions</span></h4><p>Don't just find it.<br> Fix it.</p>
-														<p class="highlighter">Learn more</p>
-													</div>
-												</div>
-												<div class="flip-card-back">
-													<div class="button-text">
-														<h4 class="highlighter">Actions</h4>
-														<p>Create an action to assign tasks or follow-ups right when an improvement opportunity is found. Easily add context by uploading photos and notes, set the due date and priority level, and assign it to anybody for follow up.</p>
-													</div>
-												</div>
-											</a>
-											<a href="#" class="card light-purp flip-card-inner">
-												<div class="flip-card-front">
-													<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/64e6dbbb690303004d966269/original.png?1692851130" alt="" height="110px">
-													<div class="button-text">
-														<h4><span class="highlighter">Issues</span></h4><p>Make under-reporting a thing of the past</p>
-														<p class="highlighter">Learn more</p>
-													</div>
-												</div>
-												<div class="flip-card-back">
-													<div class="button-text">
-														<h4 class="highlighter">Issues</h4>
-														<p>Issues make it easy for anyone to report observations, hazards, and more! Skip over-complicated forms share what’s happening in detail by capturing critical information like photos, video, weather and location in seconds.</p>
-													</div>
-												</div>
-											</a>
-											<a href="#" class="card light-purp flip-card-inner">
-												<div class="flip-card-front">
-													<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/64e6dbbb8b488d004b606c8d/original.png?1692851130" alt="" height="110px">
-													<div class="button-text">
-														<h4><span class="highlighter">Heads Up</span></h4><p>Communications to your team made easy</p><p class="highlighter">Learn more</p>
-													</div>
-												</div>
-												<div class="flip-card-back">
-													<div class="button-text">
-														<h4 class="highlighter">Heads Up</h4>
-														<p>Communicate with your team, wherever they are, and know they received the message. Heads Up lets you broadcast rich media messages with video, images or PDFs to align teams quickly and remotely.</p>
-													</div>
-												</div>
-											</a>
+											</div>
 										</div>
-										<div class="scroll-nav-right"></div>
-									</div>
-										
-									<footer>
-										<div class="button bsecondary">
-											<a class="button-prev"><p>Back</p></a>
+										<div class="swiper-slide">
+											<div class="flip-card-inner">
+												<div class="flip-card flip-card-front light-grey">
+													<div>
+														<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/63b3b0b95b550159c150559a/original.png?1672720569" alt="">
+													</div>
+													<h4><span class="highlighter">Actions</span><br>Don't just find it, fix it.</h4>
+													<footer>
+														<div class="button text-button">
+															<a href="#"><p>Learn more</p></a>
+														</div>
+													</footer>
+												</div>
+												<div class="flip-card flip-card-back light-grey">
+													<div class="message left">
+														<h4><span class="highlighter">Actions</span></h4>
+														<p>Create an action to assign tasks or follow-ups right when an improvement opportunity is found. Easily add context by uploading photos and notes, set the due date and priority level, and assign it to anybody for follow up. </p>
+														<footer class="center">
+															<div class="button text-button">
+																<a href="#"><p>Back</p></a>
+															</div>
+														</footer>
+													</div>
+												</div>
+											</div>
 										</div>
-										<div class="button bprimary">
-											<a class="button-next"><p>Next</p></a>
-										</div>
-									</footer>
+										<div class="swiper-slide">
+											<div class="flip-card-inner">
+												<div class="flip-card flip-card-front light-grey">
+													<div>
+														<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/63b3b0b9b6ef7141bac3694a/original.png?1672720569" alt="">
+													</div>
+													<h4><span class="highlighter">Issues</span><br>Make under-reporting a thing of the past. </h4>
+													<footer>
+														<div class="button text-button">
+															<a href="#"><p>Learn more</p></a>
+														</div>
+													</footer>
+												</div>
+												<div class="flip-card flip-card-back light-grey">
+													<div class="message left">
+														<h4><span class="highlighter">Issues</span></h4>
+														<p>Report any issues or observations you see any time outside of an inspection. More issues reported means teams are better equipped to act and resolve things quickly — before they get out of hand or result in more serious incidents. </p>
+														<footer class="center">
+															<div class="button text-button">
+																<a href="#"><p>Back</p></a>
+															</div>
+														</footer>
+													</div>
+												</div>
+											</div>
+										</div> 
+										<div class="swiper-slide">
+											<div class="flip-card-inner">
+												<div class="flip-card flip-card-front light-grey">
+													<div>
+														<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/63b3b0b9b6ef7141bac3694a/original.png?1672720569" alt="">
+													</div>
+													<h4><span class="highlighter">Heads Up</span><br>Communications made easy.</h4>
+													<footer>
+														<div class="button text-button">
+															<a href="#"><p>Learn more</p></a>
+														</div>
+													</footer>
+												</div>
+												<div class="flip-card flip-card-back light-grey">
+													<div class="message left">
+														<h4><span class="highlighter">Heads Up</span></h4>
+														<p>Don’t waste time with poor communication practices and lost messages. Create engaging messages in seconds and send rich media messages with video, images, or PDFs to your team, no matter where they are.</p>
+														<footer class="center">
+															<div class="button text-button">
+																<a href="#"><p>Back</p></a>
+															</div>
+														</footer>
+													</div>
+												</div>
+											</div>
+										</div> 
+									</div>					
 								</div>
+								<!-- <div class="swiper-scrollbar"></div> -->
+								<div class="swiper-button-prev hide-500"></div>
+								<div class="swiper-button-next hide-500"></div>
+								<div class="swiper-pagination"></div>	
+								<footer>
+									<div class="button bsecondary">
+										<a class="button-prev"><p>Prev</p></a>
+									</div>
+									<div class="button bprimary">
+										<a class="button-next" href="#"><p>Next</p></a>
+									</div>
+								</footer>
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> 
 '''
 
 w91 = '''
@@ -973,7 +1018,7 @@ w91 = '''
 							</div>
 						</div>
 					</div>
-				</div>	
+				</div>		
 '''
 
 w92 = '''
@@ -984,7 +1029,7 @@ w92 = '''
 						<div class="block b-100">	
 							<div class="text-container">
 								{{content_blocks.${core-block-inapp-logo-primary}}}
-								<h3>How was your experience with the <span class="underline-purple">data entry tools</span>?</h3>
+								<h3>How was your experience with the <span class="highlighter">data entry tools</span>?</h3>
 								<div class="selection-button-block data-collect small-buttons score" data-input="toolkit">
 									<a href="#" class="selection-button" data-action="csatclose" data-trackinglabel="1" data-additonalinfo="inspections">
 										<div class="button-icon">
@@ -1045,7 +1090,7 @@ w101 = '''
 								
 								<footer>
 									<div class="button bprimary">
-										<a class="button-close" href="#"><p>Got it</p></a>
+										<a class="button-next" href="#"><p>Got it</p></a>
 									</div>
 								</footer>
 							</div>

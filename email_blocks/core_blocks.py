@@ -135,7 +135,6 @@ email_top = '''
 		body, .outer, .card, .tertiary-cta, .pl-template, .image-banner, .gold-cta, .row-content{background-color: #505F79!important;}
 		.secondary{border:1px solid #ffffff!important;}		
 	}
-	
 </style>
 <!--[if (gte mso 9)|(IE)]>
 <style type="text/css">
@@ -170,5 +169,10 @@ email_bottom = '''
 			</table>
         </td>
 	</tr>	
+ 
 	{{content_blocks.${core-block-email-footer-standard}}}
+ 
+</table>
+</body>
+</html>
 '''

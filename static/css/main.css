@@ -139,6 +139,9 @@ input[type='submit'] {
 #preview-text {
     display: block;
 }
+#preview {
+    line-height: 0px;
+}
 
 /* UNDERLINE ANIMATION */
 span {
@@ -169,5 +172,5 @@ span {
 }
 
 .slide-preview {
-    padding-bottom: 8px;
+    margin-bottom: 16px;
 }

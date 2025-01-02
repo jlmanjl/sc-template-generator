@@ -37,9 +37,23 @@ s1 = '''
 							</tr>
                             <tr>
 								<td align="left" style="padding: 20px 0px 0px 0px;">
-									<table><tr><td class="body-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.</td></tr></table>
+									<table>
+										<tr>
+											<td class="body-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+												<ul style="padding: 0; list-style-type: none; margin-left: 0px;">
+													<li style="font-size: 15px; background-image: url('https://braze-images.com/appboy/communication/assets/image_assets/images/66fa31e9e595f2007105484b/original.png?1727672809'); background-size: 18px 18px; background-repeat: no-repeat; background-position: 0 5px; padding-left: 30px; margin-bottom: 10px; line-height: 27px; text-indent: -5px;">
+														Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien.
+													</li>
+													<li style="font-size: 15px; background-image: url('https://braze-images.com/appboy/communication/assets/image_assets/images/66fa31e9e595f2007105484b/original.png?1727672809'); background-size: 18px 18px; background-repeat: no-repeat; background-position: 0 5px; padding-left: 30px; margin-bottom: 10px; line-height: 27px; text-indent: -5px;">
+														Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. 
+													</li>
+												</ul>
+											</td>
+										</tr>
+									</table>
 								</td>
 							</tr>
+							
                             <tr>
                                 <td align="left" style="padding:20px 0px 0px 0px">
                                     <!-- BULLETPROOF BUTTON -->
@@ -71,7 +85,7 @@ s1 = '''
             </table>
             <![endif]-->
         </td>
-    </tr><!--/S1 SECONDARY - DEFAULT SOLOCOLOR-->		
+    </tr><!--/S1 SECONDARY - SINGLE COLUMN-->		
 '''
 
 s2 = '''
@@ -114,47 +128,41 @@ s2 = '''
 									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="inner-block">
 										<tr>
 											<td align="left" valign="middle" style="font-size:0;" class="row-content ">
-																		
 												<!--[if (gte mso 9)|(IE)]>
 												<table align="left" border="0" cellspacing="0" cellpadding="0" width="540">
 												<tr>
 												<td align="left" valign="middle" width="210">
 												<![endif]-->
-														<div style="display:inline-block; margin:0px; max-width:44%; min-width:200px; vertical-align:middle;width:100%;padding:10px 0px;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:240px;" class="wrapper">
-																<tr>
-																	<td align="center" valign="middle" height="240" class="mobile-left">
-																		<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="208" height="208" alt="image" border="0" class="row-image">
-																	</td>
-																</tr>
-															</table>
-														</div>
-												
+												<div style="display:inline-block; margin:0px; max-width:44%; min-width:200px; vertical-align:middle;width:100%;padding:10px 0px;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:240px;" class="wrapper">
+														<tr>
+															<td align="center" valign="middle" height="240" class="mobile-left">
+																<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="208" height="208" alt="image" border="0" class="row-image">
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
-
 												<td width="20" style="font-size: 1px;">&nbsp;</td>
 												<td align="left" valign="middle" width="230">
 												<![endif]-->
-												
-														<div style="display:inline-block; margin:0px; max-width:55%; min-width:180px; vertical-align:middle;width:100%;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="row-text">
-																<tr>
-																	<td class="body-text" valign="middle" >
-																		<span class="label purple" style="padding:0px;">LABEL</span><br>
-																		<span class="content-header">Aenean nec lorem</span> <br>
-																		Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
-																	</td>
-																</tr>
-															</table>
-														</div>
-												
+												<div style="display:inline-block; margin:0px; max-width:55%; min-width:180px; vertical-align:middle;width:100%;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="row-text">
+														<tr>
+															<td class="body-text" valign="middle" >
+																<span class="label purple" style="padding:0px;">LABEL</span><br>
+																<span class="content-header">Aenean nec lorem</span> <br>
+																Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
 												</tr>
 												</table>
 												<![endif]-->
-												
 											</td>
 										</tr>
 									</table>
@@ -175,47 +183,41 @@ s2 = '''
 									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="inner-block">
 										<tr>
 											<td align="left" valign="middle" style="font-size:0;" class="row-content ">
-												
 												<!--[if (gte mso 9)|(IE)]>
 												<table align="left" border="0" cellspacing="0" cellpadding="0" width="540">
 												<tr>
 												<td align="left" valign="middle" width="210">
 												<![endif]-->
-														<div style="display:inline-block; margin:0px; max-width:44%; min-width:200px; vertical-align:middle;width:100%;padding:10px 0px;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:240px;" class="wrapper">
-																<tr>
-																	<td align="center" valign="middle" height="240" class="mobile-left">
-																		<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="208" height="208" alt="image" border="0" class="row-image">
-																	</td>
-																</tr>
-															</table>
-														</div>
-												
+												<div style="display:inline-block; margin:0px; max-width:44%; min-width:200px; vertical-align:middle;width:100%;padding:10px 0px;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:240px;" class="wrapper">
+														<tr>
+															<td align="center" valign="middle" height="240" class="mobile-left">
+																<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="208" height="208" alt="image" border="0" class="row-image">
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
-
 												<td width="20" style="font-size: 1px;">&nbsp;</td>
 												<td align="left" valign="middle" width="230">
 												<![endif]-->
-												
-														<div style="display:inline-block; margin:0px; max-width:55%; min-width:180px; vertical-align:middle;width:100%;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="row-text">
-																<tr>
-																	<td class="body-text" valign="middle" >
-																		<span class="label purple" style="padding:0px;">LABEL</span><br>
-																		<span class="content-header">Aenean nec lorem</span> <br>
-																		Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
-																	</td>
-																</tr>
-															</table>
-														</div>
-												
+												<div style="display:inline-block; margin:0px; max-width:55%; min-width:180px; vertical-align:middle;width:100%;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="row-text">
+														<tr>
+															<td class="body-text" valign="middle" >
+																<span class="label purple" style="padding:0px;">LABEL</span><br>
+																<span class="content-header">Aenean nec lorem</span> <br>
+																Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
 												</tr>
 												</table>
 												<![endif]-->
-												
 											</td>
 										</tr>
 									</table>
@@ -236,47 +238,41 @@ s2 = '''
 									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="inner-block">
 										<tr>
 											<td align="left" valign="middle" style="font-size:0;" class="row-content ">
-												
 												<!--[if (gte mso 9)|(IE)]>
 												<table align="left" border="0" cellspacing="0" cellpadding="0" width="540">
 												<tr>
 												<td align="left" valign="middle" width="210">
 												<![endif]-->
-														<div style="display:inline-block; margin:0px; max-width:44%; min-width:200px; vertical-align:middle;width:100%;padding:10px 0px;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:240px;" class="wrapper">
-																<tr>
-																	<td align="center" valign="middle" height="240" class="mobile-left">
-																		<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="208" height="208" alt="image" border="0" class="row-image">
-																	</td>
-																</tr>
-															</table>
-														</div>
-												
+												<div style="display:inline-block; margin:0px; max-width:44%; min-width:200px; vertical-align:middle;width:100%;padding:10px 0px;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:240px;" class="wrapper">
+														<tr>
+															<td align="center" valign="middle" height="240" class="mobile-left">
+																<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="208" height="208" alt="image" border="0" class="row-image">
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
-
 												<td width="20" style="font-size: 1px;">&nbsp;</td>
 												<td align="left" valign="middle" width="230">
 												<![endif]-->
-												
-														<div style="display:inline-block; margin:0px; max-width:55%; min-width:180px; vertical-align:middle;width:100%;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="row-text">
-																<tr>
-																	<td class="body-text" valign="middle" >
-																		<span class="label purple" style="padding:0px;">LABEL</span><br>
-																		<span class="content-header">Aenean nec lorem</span> <br>
-																		Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
-																	</td>
-																</tr>
-															</table>
-														</div>
-												
+												<div style="display:inline-block; margin:0px; max-width:55%; min-width:180px; vertical-align:middle;width:100%;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="row-text">
+														<tr>
+															<td class="body-text" valign="middle" >
+																<span class="label purple" style="padding:0px;">LABEL</span><br>
+																<span class="content-header">Aenean nec lorem</span> <br>
+																Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
 												</tr>
 												</table>
 												<![endif]-->
-												
 											</td>
 										</tr>
 									</table>
@@ -318,12 +314,11 @@ s2 = '''
             </table>
             <![endif]-->
         </td>
-    </tr>
-    <!--/S2 SECONDARY - 2-COL IMAGES LARGE-->
+    </tr><!--/S2 SECONDARY - 2-COL IMAGES LARGE-->	
 '''
 
 s21 = '''
-	<tr><!--S2 SECONDARY - 2-COL IMAGES LARGE-->
+	<tr><!--S2 SECONDARY - 2-COL IMAGES LARGE ALTERNATING-->
         <td bgcolor="#F4F7FE" class="outer" align="center" style="padding:0px;" >
             <!--[if (gte mso 9)|(IE)]>
             <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
@@ -362,47 +357,41 @@ s21 = '''
 									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="inner-block">
 										<tr>
 											<td align="left" valign="middle" style="font-size:0;" class="row-content alternate">
-												
 												<!--[if (gte mso 9)|(IE)]>
 												<table align="left" border="0" cellspacing="0" cellpadding="0" width="540">
 												<tr>
 												<td align="left" valign="middle" width="210">
 												<![endif]-->
-														<div style="display:inline-block; margin:0px; max-width:44%; min-width:200px; vertical-align:middle;width:100%;padding:10px 0px;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:240px;" class="wrapper">
-																<tr>
-																	<td align="center" valign="middle" height="240" class="mobile-left">
-																		<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="208" height="208" alt="image" border="0" class="row-image">
-																	</td>
-																</tr>
-															</table>
-														</div>
-												
+												<div style="display:inline-block; margin:0px; max-width:44%; min-width:200px; vertical-align:middle;width:100%;padding:10px 0px;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:240px;" class="wrapper">
+														<tr>
+															<td align="center" valign="middle" height="240" class="mobile-left">
+																<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="208" height="208" alt="image" border="0" class="row-image">
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
-
 												<td width="20" style="font-size: 1px;">&nbsp;</td>
 												<td align="left" valign="middle" width="230">
 												<![endif]-->
-												
-														<div style="display:inline-block; margin:0px; max-width:55%; min-width:180px; vertical-align:middle;width:100%;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="row-text">
-																<tr>
-																	<td class="body-text" valign="middle" >
-																		<span class="label purple" style="padding:0px;">LABEL</span><br>
-																		<span class="content-header">Aenean nec lorem</span> <br>
-																		Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
-																	</td>
-																</tr>
-															</table>
-														</div>
-												
+												<div style="display:inline-block; margin:0px; max-width:55%; min-width:180px; vertical-align:middle;width:100%;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="row-text">
+														<tr>
+															<td class="body-text" valign="middle" >
+																<span class="label purple" style="padding:0px;">LABEL</span><br>
+																<span class="content-header">Aenean nec lorem</span> <br>
+																Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
 												</tr>
 												</table>
 												<![endif]-->
-												
 											</td>
 										</tr>
 									</table>
@@ -423,47 +412,41 @@ s21 = '''
 									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="inner-block">
 										<tr>
 											<td align="left" valign="middle" style="font-size:0;" class="row-content ">
-												
 												<!--[if (gte mso 9)|(IE)]>
 												<table align="left" border="0" cellspacing="0" cellpadding="0" width="540">
 												<tr>
 												<td align="left" valign="middle" width="210">
 												<![endif]-->
-														<div style="display:inline-block; margin:0px; max-width:44%; min-width:200px; vertical-align:middle;width:100%;padding:10px 0px;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:240px;" class="wrapper">
-																<tr>
-																	<td align="center" valign="middle" height="240" class="mobile-left">
-																		<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="208" height="208" alt="image" border="0" class="row-image">
-																	</td>
-																</tr>
-															</table>
-														</div>
-												
+												<div style="display:inline-block; margin:0px; max-width:44%; min-width:200px; vertical-align:middle;width:100%;padding:10px 0px;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:240px;" class="wrapper">
+														<tr>
+															<td align="center" valign="middle" height="240" class="mobile-left">
+																<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="208" height="208" alt="image" border="0" class="row-image">
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
-
 												<td width="20" style="font-size: 1px;">&nbsp;</td>
 												<td align="left" valign="middle" width="230">
 												<![endif]-->
-												
-														<div style="display:inline-block; margin:0px; max-width:55%; min-width:180px; vertical-align:middle;width:100%;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="row-text">
-																<tr>
-																	<td class="body-text" valign="middle" >
-																		<span class="label purple" style="padding:0px;">LABEL</span><br>
-																		<span class="content-header">Aenean nec lorem</span> <br>
-																		Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
-																	</td>
-																</tr>
-															</table>
-														</div>
-												
+												<div style="display:inline-block; margin:0px; max-width:55%; min-width:180px; vertical-align:middle;width:100%;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="row-text">
+														<tr>
+															<td class="body-text" valign="middle" >
+																<span class="label purple" style="padding:0px;">LABEL</span><br>
+																<span class="content-header">Aenean nec lorem</span> <br>
+																Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
 												</tr>
 												</table>
 												<![endif]-->
-
 											</td>
 										</tr>
 									</table>
@@ -484,50 +467,41 @@ s21 = '''
 									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="inner-block">
 										<tr>
 											<td align="left" valign="middle" style="font-size:0;" class="row-content alternate">
-												
-												
-												
 												<!--[if (gte mso 9)|(IE)]>
 												<table align="left" border="0" cellspacing="0" cellpadding="0" width="540">
 												<tr>
 												<td align="left" valign="middle" width="210">
 												<![endif]-->
-														<div style="display:inline-block; margin:0px; max-width:44%; min-width:200px; vertical-align:middle;width:100%;padding:10px 0px;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:240px;" class="wrapper">
-																<tr>
-																	<td align="center" valign="middle" height="240" class="mobile-left">
-																		<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="208" height="208" alt="image" border="0" class="row-image">
-																	</td>
-																</tr>
-															</table>
-														</div>
-												
+												<div style="display:inline-block; margin:0px; max-width:44%; min-width:200px; vertical-align:middle;width:100%;padding:10px 0px;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:240px;" class="wrapper">
+														<tr>
+															<td align="center" valign="middle" height="240" class="mobile-left">
+																<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="208" height="208" alt="image" border="0" class="row-image">
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
-
-
 												<td width="20" style="font-size: 1px;">&nbsp;</td>
 												<td align="left" valign="middle" width="230">
 												<![endif]-->
-												
-														<div style="display:inline-block; margin:0px; max-width:55%; min-width:180px; vertical-align:middle;width:100%;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="row-text">
-																<tr>
-																	<td class="body-text" valign="middle" >
-																		<span class="label purple" style="padding:0px;">LABEL</span><br>
-																		<span class="content-header">Aenean nec lorem</span> <br>
-																		Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
-																	</td>
-																</tr>
-															</table>
-														</div>
-												
+												<div style="display:inline-block; margin:0px; max-width:55%; min-width:180px; vertical-align:middle;width:100%;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="row-text">
+														<tr>
+															<td class="body-text" valign="middle" >
+																<span class="label purple" style="padding:0px;">LABEL</span><br>
+																<span class="content-header">Aenean nec lorem</span> <br>
+																Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
 												</tr>
 												</table>
 												<![endif]-->
-												
 											</td>
 										</tr>
 									</table>
@@ -569,8 +543,7 @@ s21 = '''
             </table>
             <![endif]-->
         </td>
-    </tr>
-    <!--/S2 SECONDARY - 2-COL IMAGES LARGE-->	
+    </tr><!--/S2 SECONDARY - 2-COL IMAGES LARGE ALTERNATING-->	
 '''
 
 s3 = '''
@@ -619,30 +592,30 @@ s3 = '''
 												<tr>
 												<td align="left" valign="middle" width="110">
 												<![endif]-->
-														<div style="display:inline-block; margin:0px; max-width:25%; min-width:80px; vertical-align:middle;width:100%;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:100px;" class="wrapper">
-																<tr>
-																	<td align="center" valign="middle" height="100" width="100%" class="mobile-left">
-																		<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="80" height="80" alt="image" border="0" class="row-image-small">
-																	</td>
-																</tr>
-															</table>
-														</div>
+												<div style="display:inline-block; margin:0px; max-width:25%; min-width:80px; vertical-align:middle;width:100%;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:100px;" class="wrapper">
+														<tr>
+															<td align="center" valign="middle" height="100" width="100%" class="mobile-left">
+																<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="80" height="80" alt="image" border="0" class="row-image-small">
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
 												<td width="20" style="font-size: 1px;">&nbsp;</td>
 												<td align="left" valign="middle" width="360">
 												<![endif]-->
-														<div style="display:inline-block;margin:0px;max-width:70%; min-width:200px; vertical-align:middle;width:100%;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:380px;" class="wrapper">
-																<tr>
-																	<td class="body-text" valign="middle" height="100">
-																		<span class="content-header">Nunc viverra imperdiet enim</span> <br>
-																		Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla.
-																	</td>
-																</tr>
-															</table>
-														</div>
+												<div style="display:inline-block;margin:0px;max-width:70%; min-width:200px; vertical-align:middle;width:100%;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:380px;" class="wrapper">
+														<tr>
+															<td class="body-text" valign="middle" height="100">
+																<span class="content-header">Nunc viverra imperdiet enim</span> <br>
+																Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla.
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
 												</tr>
@@ -673,30 +646,30 @@ s3 = '''
 												<tr>
 												<td align="left" valign="middle" width="110">
 												<![endif]-->
-														<div style="display:inline-block; margin:0px; max-width:25%; min-width:80px; vertical-align:middle;width:100%;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:100px;" class="wrapper">
-																<tr>
-																	<td align="center" valign="middle" height="100" width="100%" class="mobile-left">
-																		<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="80" height="80" alt="image" border="0" class="row-image-small">
-																	</td>
-																</tr>
-															</table>
-														</div>
+												<div style="display:inline-block; margin:0px; max-width:25%; min-width:80px; vertical-align:middle;width:100%;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:100px;" class="wrapper">
+														<tr>
+															<td align="center" valign="middle" height="100" width="100%" class="mobile-left">
+																<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="80" height="80" alt="image" border="0" class="row-image-small">
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
 												<td width="20" style="font-size: 1px;">&nbsp;</td>
 												<td align="left" valign="middle" width="360">
 												<![endif]-->
-														<div style="display:inline-block;margin:0px;max-width:70%; min-width:200px; vertical-align:middle;width:100%;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:380px;" class="wrapper">
-																<tr>
-																	<td class="body-text" valign="middle" height="100">
-																		<span class="content-header">Nunc viverra imperdiet enim</span> <br>
-																		Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla.
-																	</td>
-																</tr>
-															</table>
-														</div>
+												<div style="display:inline-block;margin:0px;max-width:70%; min-width:200px; vertical-align:middle;width:100%;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:380px;" class="wrapper">
+														<tr>
+															<td class="body-text" valign="middle" height="100">
+																<span class="content-header">Nunc viverra imperdiet enim</span> <br>
+																Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla.
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
 												</tr>
@@ -727,30 +700,30 @@ s3 = '''
 												<tr>
 												<td align="left" valign="middle" width="110">
 												<![endif]-->
-														<div style="display:inline-block; margin:0px; max-width:25%; min-width:80px; vertical-align:middle;width:100%;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:100px;" class="wrapper">
-																<tr>
-																	<td align="center" valign="middle" height="100" width="100%" class="mobile-left">
-																		<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="80" height="80" alt="image" border="0" class="row-image-small">
-																	</td>
-																</tr>
-															</table>
-														</div>
+												<div style="display:inline-block; margin:0px; max-width:25%; min-width:80px; vertical-align:middle;width:100%;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:100px;" class="wrapper">
+														<tr>
+															<td align="center" valign="middle" height="100" width="100%" class="mobile-left">
+																<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="80" height="80" alt="image" border="0" class="row-image-small">
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
 												<td width="20" style="font-size: 1px;">&nbsp;</td>
 												<td align="left" valign="middle" width="360">
 												<![endif]-->
-														<div style="display:inline-block;margin:0px;max-width:70%; min-width:200px; vertical-align:middle;width:100%;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:380px;" class="wrapper">
-																<tr>
-																	<td class="body-text" valign="middle" height="100">
-																		<span class="content-header">Nunc viverra imperdiet enim</span> <br>
-																		Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla.
-																	</td>
-																</tr>
-															</table>
-														</div>
+												<div style="display:inline-block;margin:0px;max-width:70%; min-width:200px; vertical-align:middle;width:100%;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:380px;" class="wrapper">
+														<tr>
+															<td class="body-text" valign="middle" height="100">
+																<span class="content-header">Nunc viverra imperdiet enim</span> <br>
+																Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla.
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
 												</tr>
@@ -792,7 +765,6 @@ s3 = '''
 						<![endif]-->
 					</td>
 				</tr>
-				
             </table>
             <!--[if (gte mso 9)|(IE)]>
             </td>
@@ -800,8 +772,7 @@ s3 = '''
             </table>
             <![endif]-->
         </td>
-    </tr>
-    <!--/S3 SECONDARY - 2-COL IMAGES SMALL-->	
+    </tr><!--/S3 SECONDARY - 2-COL IMAGES SMALL-->	
 '''
 
 s4 = '''
@@ -837,36 +808,30 @@ s4 = '''
 												<tr>
 												<td align="left" valign="middle" width="280">
 												<![endif]-->
-												
-														<div style="display:inline-block; margin:0px; max-width:55%; min-width:180px; vertical-align:middle;width:100%;" class="wrapper">
-															<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:290px;" class="wrapper">
-																<tr>
-																	<td class="body-text" style="padding: 0px 0 10px 0;" valign="middle">
-																		<span class="content-header">Here's a CTA block</span> <br>
-																		Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.<br><br><a href="#">Aenean nec lorem →</a>
-																	</td>
-																</tr>
-															</table>
-														</div>
-												
-												
-												
+												<div style="display:inline-block; margin:0px; max-width:55%; min-width:180px; vertical-align:middle;width:100%;" class="wrapper">
+													<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:290px;" class="wrapper">
+														<tr>
+															<td class="body-text" style="padding: 0px 0 10px 0;" valign="middle">
+																<span class="content-header">Here's a CTA block</span> <br>
+																Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.<br><br><a href="#">Aenean nec lorem →</a>
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
 												<td width="20" style="font-size: 1px;">&nbsp;</td>
 												<td align="left" valign="middle" width="240">
 												<![endif]-->
-												
-														<div style="display:inline-block; margin:0px; max-width:44%; min-width:200px; vertical-align:middle;width:100%;padding:10px 0px;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:250px;" class="wrapper">
-																<tr>
-																	<td align="center" valign="middle" height="230" class="mobile-left">
-																		<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="208" height="208" style="display: block;width:100%;" alt="image" border="0" class="img-max">
-																	</td>
-																</tr>
-															</table>
-														</div>
-												
+												<div style="display:inline-block; margin:0px; max-width:44%; min-width:200px; vertical-align:middle;width:100%;padding:10px 0px;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:250px;" class="wrapper">
+														<tr>
+															<td align="center" valign="middle" height="230" class="mobile-left">
+																<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="208" height="208" style="display: block;width:100%;" alt="image" border="0" class="img-max">
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
 												</tr>
@@ -882,7 +847,6 @@ s4 = '''
 									<![endif]-->
 								</td>
 							</tr>
-							
 						</table>
 						<!--[if (gte mso 9)|(IE)]>
 						</td>
@@ -898,8 +862,7 @@ s4 = '''
             </table>
             <![endif]-->
         </td>
-    </tr>
-    <!--/S4 SECONDARY - GENERAL CTA BOX-->
+    </tr><!--/S4 SECONDARY - GENERAL CTA BOX-->
 '''
 
 s5 = '''
@@ -935,29 +898,29 @@ s5 = '''
 												<tr>
 												<td align="left" valign="middle" width="240">
 												<![endif]-->
-														<div style="display:inline-block; margin:0px; max-width:50%; min-width:200px; vertical-align:middle;width:100%;padding:20px 0;" class="wrapper">
-															<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:260px;" class="wrapper">
-																<tr>
-																	<td class="body-text" style="padding: 0px 0 10px 0;">
-																		<span class="content-header">Case study block</span> <br>
-																		Proin nec augue. Quisque aliquam tempor magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc ac magna.<br><br><a href="#">View customer story →</a></td>
-																</tr>
-															</table>
-														</div>
+												<div style="display:inline-block; margin:0px; max-width:50%; min-width:200px; vertical-align:middle;width:100%;padding:20px 0;" class="wrapper">
+													<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:260px;" class="wrapper">
+														<tr>
+															<td class="body-text" style="padding: 0px 0 10px 0;">
+																<span class="content-header">Case study block</span> <br>
+																Proin nec augue. Quisque aliquam tempor magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc ac magna.<br><br><a href="#">View customer story →</a></td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
 												<td width="20" style="font-size: 1px;">&nbsp;</td>
 												<td align="left" valign="middle" width="220">
 												<![endif]-->
-														<div style="display:inline-block; margin:0px; max-width:50%; min-width:200px; vertical-align:middle;width:100%;padding:10px 0px;" class="wrapper">
-															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:260px;" class="wrapper">
-																<tr>
-																	<td align="center" valign="middle" class="mobile-left">
-																		<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fcf495e066f03e8ac21f35/original.png?1660744853" width="220" height="220" style="display: block;width:100%;" alt="Getting started template" border="0" class="img-max">
-																	</td>
-																</tr>
-															</table>
-														</div>
+												<div style="display:inline-block; margin:0px; max-width:50%; min-width:200px; vertical-align:middle;width:100%;padding:10px 0px;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:260px;" class="wrapper">
+														<tr>
+															<td align="center" valign="middle" class="mobile-left">
+																<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fcf495e066f03e8ac21f35/original.png?1660744853" width="220" height="220" style="display: block;width:100%;" alt="Getting started template" border="0" class="img-max">
+															</td>
+														</tr>
+													</table>
+												</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
 												</tr>
@@ -989,12 +952,11 @@ s5 = '''
             </table>
             <![endif]-->
         </td>
-    </tr>
-    <!--/S5 SECONDARY - CASE STUDY-->
+    </tr><!--/S5 SECONDARY - CASE STUDY-->
 '''
 
 s6 = '''
-    <tr><!--S5 SECONDARY: PRODUCT CARDS-->
+    <tr><!--S6 SECONDARY: PRODUCT CARDS-->
 		<td bgcolor="#F4F7FE" class="outer" align="center" style="padding:0px;">
 			<!--[if (gte mso 9)|(IE)]>
             <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
@@ -1146,8 +1108,7 @@ s6 = '''
 			</table>
 			<![endif]-->
 		</td>
-	</tr>
- 	<!--/S5 SECONDARY: PRODUCT CARDS-->
+	</tr><!--/S6 SECONDARY: PRODUCT CARDS-->
 '''
 
 s7 = '''

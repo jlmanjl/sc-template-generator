@@ -23,6 +23,7 @@ def emails():
     s5 = secondary_blocks.s5,
     s6 = secondary_blocks.s6,
     s7 = secondary_blocks.s7, 
+    t1 = tertiary_blocks.t1,
     t2 = tertiary_blocks.t2,
     t3 = tertiary_blocks.t3,
     t_csrequest = tertiary_blocks.t_csrequest,
