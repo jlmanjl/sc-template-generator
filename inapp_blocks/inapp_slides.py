@@ -755,9 +755,9 @@ w83 = '''
 				<!-- W8.3 FLIP CARD SWIPER (1-COL) -->
 				<div class="slick-slide" id="">
 					<div class="container">
-						<div class="block b-100" style="margin-right:15px">
+						<div class="block b-100">
 							<!--BLOCK 1-->
-							<div class="text-container">
+							<div class="text-container" style="padding:4% 0 4% 0">
 								<h3>Lorem ipsum dolor</h3>
 								<p class="message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 								<div class="swiper">
