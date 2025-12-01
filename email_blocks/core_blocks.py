@@ -67,6 +67,11 @@ email_top = '''
 	.button{border-radius:8px;font-size: 15px;-webkit-font-smoothing: antialiased;text-decoration:none;padding:15px 25px;display:block;}
 	.quote-border{border-left: 3px solid #6559FF;}
 	
+	/* LIST STYLES */
+	ul li::before {color: #293745;}
+	.checkmark{list-style-type: '\2713'; padding-left:30px;}
+	.li-space{padding: 0px 0px 0px 10px;}
+	
     /* RESET STYLES */
 	body { display:block !important; min-width:100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;mso-line-height-rule: exactly; height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important;background-color: #F4F7FE;}
 	table, td{mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
@@ -118,6 +123,10 @@ email_top = '''
 	.pl-template-image{display: block; color: #293745;width: 50px; height: 50px;padding:15px;}
 	.pl-template{border-radius: 8px;margin:0px;border: 1px solid #E9EEF6;border-collapse: separate!important;height:110px;}		
 	
+	/* Default: show desktop, hide mobile */
+   .mobile-only {display: none; max-height: 0; overflow: hidden; mso-hide: all;}
+   .desktop-only { display: block;} 
+
 	/* MOBILE STYLES */
 	@media only screen and (max-device-width: 525px), only screen and (max-width: 525px) {
 		.wrapper, .responsive-table{width: 100%!important;max-width: 100%!important;}
@@ -126,6 +135,7 @@ email_top = '''
 		.mobile-hide{display:none!important;}
 		.row-content{padding: 20px 10px 20px 10px!important;}
 		.alternate {direction: ltr!important;text-align: left!important;}
+		.text-pad {padding-right: 2%;}
 	}
 	/* DARK MODE */
 	@media (prefers-color-scheme:dark) {
@@ -133,7 +143,8 @@ email_top = '''
 		.highlighter{ color:#00D1FF!important; }
 		.responsive-table {background-color:#344563;}
 		body, .outer, .card, .tertiary-cta, .pl-template, .image-banner, .gold-cta, .row-content{background-color: #505F79!important;}
-		.secondary{border:1px solid #ffffff!important;}		
+		.secondary{border:1px solid #ffffff!important;}
+		ul li::before {color: #ffffff!important;}			
 	}
 </style>
 <!--[if (gte mso 9)|(IE)]>
@@ -151,7 +162,7 @@ email_top = '''
 
 email_bottom = '''
 <!-----------FOOTER CONTENT---------------->
-	<!--triline-->
+<!--triline-->
 	<tr>
         <td bgcolor="#F4F7FE" class="outer" align="center">
 			<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600" class="responsive-table ">
@@ -169,9 +180,7 @@ email_bottom = '''
 			</table>
         </td>
 	</tr>	
- 
 	{{content_blocks.${core-block-email-footer-standard}}}
- 
 </table>
 </body>
 </html>

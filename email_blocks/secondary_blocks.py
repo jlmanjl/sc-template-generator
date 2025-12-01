@@ -85,7 +85,7 @@ s1 = '''
             </table>
             <![endif]-->
         </td>
-    </tr><!--/S1 SECONDARY - SINGLE COLUMN-->		
+    </tr><!--/S1 SECONDARY - SINGLE COLUMN-->	
 '''
 
 s2 = '''
@@ -113,7 +113,13 @@ s2 = '''
 											<td align="left" style="padding: 10px 0 10px 0;" class="subheader">Large 2-col image block</td>
 										</tr>
 										<tr>
-											<td align="left" style="padding: 0px 0px 20px 0px;margin:0px;" class="body-text">Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.</td>
+											<td align="left" style="padding: 0px 0px 20px 0px;margin:0px;" class="body-text">Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+												<ul class="checkmark">
+													<li class="li-space">Donec blandit feugiat ligula.</li>
+													<li class="li-space">Donec blandit feugiat ligula.</li>
+													<li class="li-space">Donec blandit feugiat ligula.</li>
+												</ul>
+											</td>
 										</tr>
 									</table>
 								</td>
@@ -151,6 +157,64 @@ s2 = '''
 													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="row-text">
 														<tr>
 															<td class="body-text" valign="middle" >
+																<div style="display: flex; align-items: center;">
+																	<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/670f2e58fe5cee006410db1e/original.png?1729048152" style="width:13px; height:13px; background-size: 18px 18px;  margin-right: 5px"> 
+																	<span class="label purple" style="padding:0px;">PREMIUM</span><br>
+																</div>
+																<span class="content-header">Aenean nec lorem</span> <br>
+																Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
+															</td>
+														</tr>
+													</table>
+												</div>
+												<!--[if (gte mso 9)|(IE)]>
+												</td>
+												</tr>
+												</table>
+												<![endif]-->
+											</td>
+										</tr>
+									</table>
+									<!--[if (gte mso 9)|(IE)]>
+									</td>
+									</tr>
+									</table>
+									<![endif]-->
+								</td>
+							</tr>
+							<tr>
+								<td align="left"  valign="middle" width="100%" style="padding-bottom: 20px;">
+									<!--[if (gte mso 9)|(IE)]>
+									<table align="center" border="0" cellspacing="0" cellpadding="0" width="540">
+									<tr>
+									<td align="center" valign="middle" width="540">
+									<![endif]-->
+									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="inner-block">
+										<tr>
+											<td align="left" valign="middle" style="font-size:0;" class="row-content ">
+												<!--[if (gte mso 9)|(IE)]>
+												<table align="left" border="0" cellspacing="0" cellpadding="0" width="540">
+												<tr>
+												<td align="left" valign="middle" width="210">
+												<![endif]-->
+												<div style="display:inline-block; margin:0px; max-width:44%; min-width:200px; vertical-align:middle;width:100%;padding:10px 0px;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:240px;" class="wrapper">
+														<tr>
+															<td align="center" valign="middle" height="240" class="mobile-left">
+																<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="208" height="208" alt="image" border="0" class="row-image">
+															</td>
+														</tr>
+													</table>
+												</div>
+												<!--[if (gte mso 9)|(IE)]>
+												</td>
+												<td width="20" style="font-size: 1px;">&nbsp;</td>
+												<td align="left" valign="middle" width="230">
+												<![endif]-->
+												<div style="display:inline-block; margin:0px; max-width:55%; min-width:180px; vertical-align:middle;width:100%;" class="wrapper">
+													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="row-text">
+														<tr>
+															<td class="body-text text-pad" valign="middle" >
 																<span class="label purple" style="padding:0px;">LABEL</span><br>
 																<span class="content-header">Aenean nec lorem</span> <br>
 																Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
@@ -206,62 +270,10 @@ s2 = '''
 													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="row-text">
 														<tr>
 															<td class="body-text" valign="middle" >
-																<span class="label purple" style="padding:0px;">LABEL</span><br>
-																<span class="content-header">Aenean nec lorem</span> <br>
-																Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
-															</td>
-														</tr>
-													</table>
-												</div>
-												<!--[if (gte mso 9)|(IE)]>
-												</td>
-												</tr>
-												</table>
-												<![endif]-->
-											</td>
-										</tr>
-									</table>
-									<!--[if (gte mso 9)|(IE)]>
-									</td>
-									</tr>
-									</table>
-									<![endif]-->
-								</td>
-							</tr>
-							<tr>
-								<td align="left"  valign="middle" width="100%" style="padding-bottom: 20px;">
-									<!--[if (gte mso 9)|(IE)]>
-									<table align="center" border="0" cellspacing="0" cellpadding="0" width="540">
-									<tr>
-									<td align="center" valign="middle" width="540">
-									<![endif]-->
-									<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="inner-block">
-										<tr>
-											<td align="left" valign="middle" style="font-size:0;" class="row-content ">
-												<!--[if (gte mso 9)|(IE)]>
-												<table align="left" border="0" cellspacing="0" cellpadding="0" width="540">
-												<tr>
-												<td align="left" valign="middle" width="210">
-												<![endif]-->
-												<div style="display:inline-block; margin:0px; max-width:44%; min-width:200px; vertical-align:middle;width:100%;padding:10px 0px;" class="wrapper">
-													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:240px;" class="wrapper">
-														<tr>
-															<td align="center" valign="middle" height="240" class="mobile-left">
-																<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/62fe3335c2d1095302d1e95b/original.png?1660826421" width="208" height="208" alt="image" border="0" class="row-image">
-															</td>
-														</tr>
-													</table>
-												</div>
-												<!--[if (gte mso 9)|(IE)]>
-												</td>
-												<td width="20" style="font-size: 1px;">&nbsp;</td>
-												<td align="left" valign="middle" width="230">
-												<![endif]-->
-												<div style="display:inline-block; margin:0px; max-width:55%; min-width:180px; vertical-align:middle;width:100%;" class="wrapper">
-													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="row-text">
-														<tr>
-															<td class="body-text" valign="middle" >
-																<span class="label purple" style="padding:0px;">LABEL</span><br>
+																<div style="display: flex; align-items: center;">
+																	<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/670f2e58fe5cee006410db1e/original.png?1729048152" style="width:13px; height:13px; background-size: 18px 18px;  margin-right: 5px"> 
+																	<span class="label purple" style="padding:0px;">PREMIUM</span><br>
+																</div>
 																<span class="content-header">Aenean nec lorem</span> <br>
 																Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
 															</td>
@@ -314,7 +326,7 @@ s2 = '''
             </table>
             <![endif]-->
         </td>
-    </tr><!--/S2 SECONDARY - 2-COL IMAGES LARGE-->	
+    </tr><!--/S2 SECONDARY - 2-COL IMAGES LARGE-->
 '''
 
 s21 = '''
@@ -342,7 +354,13 @@ s21 = '''
 											<td align="left" style="padding: 10px 0 10px 0;" class="subheader">Large 2-col image block</td>
 										</tr>
 										<tr>
-											<td align="left" style="padding: 0px 0px 20px 0px;margin:0px;" class="body-text">Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.</td>
+											<td align="left" style="padding: 0px 0px 20px 0px;margin:0px;" class="body-text">Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+												<ul class="checkmark">
+													<li class="li-space">Donec blandit feugiat ligula.</li>
+													<li class="li-space">Donec blandit feugiat ligula.</li>
+													<li class="li-space">Donec blandit feugiat ligula.</li>
+												</ul>
+											</td>
 										</tr>
 									</table>
 								</td>
@@ -380,7 +398,10 @@ s21 = '''
 													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="row-text">
 														<tr>
 															<td class="body-text" valign="middle" >
-																<span class="label purple" style="padding:0px;">LABEL</span><br>
+																<div style="display: flex; align-items: center;">
+																	<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/670f2e58fe5cee006410db1e/original.png?1729048152" style="width:13px; height:13px; background-size: 18px 18px;  margin-right: 5px"> 
+																	<span class="label purple" style="padding:0px;">PREMIUM</span><br>
+																</div>
 																<span class="content-header">Aenean nec lorem</span> <br>
 																Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
 															</td>
@@ -434,7 +455,7 @@ s21 = '''
 												<div style="display:inline-block; margin:0px; max-width:55%; min-width:180px; vertical-align:middle;width:100%;" class="wrapper">
 													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="row-text">
 														<tr>
-															<td class="body-text" valign="middle" >
+															<td class="body-text text-pad" valign="middle" >
 																<span class="label purple" style="padding:0px;">LABEL</span><br>
 																<span class="content-header">Aenean nec lorem</span> <br>
 																Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
@@ -490,7 +511,10 @@ s21 = '''
 													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="row-text">
 														<tr>
 															<td class="body-text" valign="middle" >
-																<span class="label purple" style="padding:0px;">LABEL</span><br>
+																<div style="display: flex; align-items: center;">
+																	<img src="https://braze-images.com/appboy/communication/assets/image_assets/images/670f2e58fe5cee006410db1e/original.png?1729048152" style="width:13px; height:13px; background-size: 18px 18px;  margin-right: 5px"> 
+																	<span class="label purple" style="padding:0px;">PREMIUM</span><br>
+																</div>
 																<span class="content-header">Aenean nec lorem</span> <br>
 																Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
 															</td>
@@ -571,7 +595,13 @@ s3 = '''
 											<td align="left" style="padding: 10px 0 10px 0;" class="subheader">Small 2-col image block</td>
 										</tr>
 										<tr>
-											<td align="left" style="padding: 0px 0px 20px 0px;margin:0px;" class="body-text">Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.</td>
+											<td align="left" style="padding: 0px 0px 20px 0px;margin:0px;" class="body-text">Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+												<ul class="checkmark">
+													<li class="li-space">Donec blandit feugiat ligula.</li>
+													<li class="li-space">Donec blandit feugiat ligula.</li>
+													<li class="li-space">Donec blandit feugiat ligula.</li>
+												</ul>
+											</td>
 										</tr>
 									</table>
 								</td>
@@ -609,7 +639,7 @@ s3 = '''
 												<div style="display:inline-block;margin:0px;max-width:70%; min-width:200px; vertical-align:middle;width:100%;" class="wrapper">
 													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:380px;" class="wrapper">
 														<tr>
-															<td class="body-text" valign="middle" height="100">
+															<td class="body-text text-pad" valign="middle" height="100">
 																<span class="content-header">Nunc viverra imperdiet enim</span> <br>
 																Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla.
 															</td>
@@ -660,16 +690,17 @@ s3 = '''
 												<td width="20" style="font-size: 1px;">&nbsp;</td>
 												<td align="left" valign="middle" width="360">
 												<![endif]-->
-												<div style="display:inline-block;margin:0px;max-width:70%; min-width:200px; vertical-align:middle;width:100%;" class="wrapper">
-													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:380px;" class="wrapper">
-														<tr>
-															<td class="body-text" valign="middle" height="100">
-																<span class="content-header">Nunc viverra imperdiet enim</span> <br>
-																Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla.
-															</td>
-														</tr>
-													</table>
-												</div>
+														<div style="display:inline-block;margin:0px;max-width:70%; min-width:200px; vertical-align:middle;width:100%;" class="wrapper">
+															<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:380px;" class="wrapper">
+																<tr>
+																	<td class="body-text text-pad" valign="middle" height="100">
+																		<span class="content-header">Nunc viverra imperdiet enim</span> <br>
+																		Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla.
+																		</ul>
+																	</td>
+																</tr>
+															</table>
+														</div>
 												<!--[if (gte mso 9)|(IE)]>
 												</td>
 												</tr>
@@ -717,7 +748,7 @@ s3 = '''
 												<div style="display:inline-block;margin:0px;max-width:70%; min-width:200px; vertical-align:middle;width:100%;" class="wrapper">
 													<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:380px;" class="wrapper">
 														<tr>
-															<td class="body-text" valign="middle" height="100">
+															<td class="body-text text-pad" valign="middle" height="100">
 																<span class="content-header">Nunc viverra imperdiet enim</span> <br>
 																Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla.
 															</td>
@@ -772,7 +803,7 @@ s3 = '''
             </table>
             <![endif]-->
         </td>
-    </tr><!--/S3 SECONDARY - 2-COL IMAGES SMALL-->	
+    </tr><!--/S3 SECONDARY - 2-COL IMAGES SMALL-->
 '''
 
 s4 = '''
@@ -1132,5 +1163,5 @@ s7 = '''
             </table>
             <![endif]-->
         </td>
-    </tr><!--S7 SECONDARY - LOGO STRIP BLOCK-->	
+    </tr><!--S7 SECONDARY - LOGO STRIP BLOCK-->
 '''

@@ -1,6 +1,5 @@
 p1_small = '''
     <!-----------PRIMARY BLOCKS---------------->
-
     <tr><!--P1 PRIMARY -->
         <td bgcolor="#F4F7FE" class="outer" align="center" style="padding:0px;" >
             <!--[if (gte mso 9)|(IE)]>
@@ -22,7 +21,7 @@ p1_small = '''
                         </table>
                     </td>
 				</tr>
-    
+				
                 <tr>
                     <td class="section-padding">
 						<!--[if (gte mso 9)|(IE)]>
@@ -39,7 +38,13 @@ p1_small = '''
 								<td align="left" style="padding: 10px 0px 0px 0px;" class="body-text">Lorem ipsum dolor sit amet <span class="highlighter">{{${first_name} | strip_html}}</span>, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.</td>
 							</tr>
                             <tr>
-								<td align="left" style="padding: 10px 0px 0px 0px;" class="body-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.</td>
+								<td align="left" style="padding: 10px 0px 0px 0px;" class="body-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+									<ul class="checkmark">
+										<li class="li-space">Donec blandit feugiat ligula.</li>
+										<li class="li-space">Donec blandit feugiat ligula.</li>
+										<li class="li-space">Donec blandit feugiat ligula.</li>
+									</ul>
+								</td>
 							</tr>
                             <tr>
                                 <td align="left" style="padding: 20px 0px 0px 0px">
@@ -49,7 +54,7 @@ p1_small = '''
                                             <td align="left" >
                                                 <table border="0" cellspacing="0" cellpadding="0" >
                                                     <tr>
-														<td align="center" bgcolor="#6559FF" target="_blank" class="button"><a href="{{region-domain}}/schedule" style="color:#ffffff; text-decoration:none;">Aenean nec lorem</a></td>
+														<td align="center" bgcolor="#6559FF" target="_blank" class="button" style="border:1px solid #6559FF;"><a href="{{region-domain}}/schedule" style="color:#ffffff; text-decoration:none;">Aenean nec lorem</a></td>
                                                     </tr>
                                                 </table>
                                             </td>
@@ -77,7 +82,6 @@ p1_small = '''
 
 p1_wide = '''
     <!-----------PRIMARY BLOCKS---------------->
-
     <tr><!--P1 PRIMARY -->
         <td bgcolor="#F4F7FE" class="outer" align="center" style="padding:0px;" >
             <!--[if (gte mso 9)|(IE)]>
@@ -116,7 +120,13 @@ p1_wide = '''
 								<td align="left" style="padding: 10px 0px 0px 0px;" class="body-text">Lorem ipsum dolor sit amet <span class="highlighter">{{${first_name} | strip_html}}</span>, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.</td>
 							</tr>
                             <tr>
-								<td align="left" style="padding: 10px 0px 0px 0px;" class="body-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.</td>
+								<td align="left" style="padding: 10px 0px 0px 0px;" class="body-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+									<ul class="checkmark">
+										<li class="li-space">Donec blandit feugiat ligula.</li>
+										<li class="li-space">Donec blandit feugiat ligula.</li>
+										<li class="li-space">Donec blandit feugiat ligula.</li>
+									</ul>
+								</td>
 							</tr>
                             <tr>
                                 <td align="left" style="padding: 20px 0px 0px 0px">
@@ -126,7 +136,7 @@ p1_wide = '''
                                             <td align="left" >
                                                 <table border="0" cellspacing="0" cellpadding="0" >
                                                     <tr>
-														<td align="center" bgcolor="#6559FF" target="_blank" class="button"><a href="{{region-domain}}/schedule" style="color:#ffffff; text-decoration:none;">Aenean nec lorem</a></td>
+														<td align="center" bgcolor="#6559FF" target="_blank" class="button" style="border:1px solid #6559FF;"><a href="{{region-domain}}/schedule" style="color:#ffffff; text-decoration:none;">Aenean nec lorem</a></td>
                                                     </tr>
                                                 </table>
                                             </td>

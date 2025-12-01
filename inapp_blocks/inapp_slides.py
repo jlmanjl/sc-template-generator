@@ -2,19 +2,19 @@ w1_link_tracking = '''
 				<!-- W1: LINK TRACKING -->
 				<div class="slick-slide" id="">
 					<div class="container ">
-						
 						<div class="block b-50">
 							<div class="text-container">
+								{{content_blocks.${core-block-inapp-logo-primary}}}
 								<h3><div class="number-bubble">3</div> Add <span class="highlighter">Users</span> to your Groups</h3>
 								<p class="message">Once set up with Permissions, you can assign your users to one or more groups to make sure they hit the ground running.</p>
 								<p class="message"><a class="click-track" data-trackinglabel="clicktracktest">Click track</a>.</p>
 								<p class="message"><a class="event-button" data-trackinglabel="eventbuttontestlabel" data-close="false">event-button</a>.</p>
 								<footer>
 									<div class="button bsecondary">
-										<a class="button-prev"><p>Prev</p></a>
+										<a class="button-prev" class="click-track" data-trackinglabel="video-te-overview"><p>Prev</p></a>
 									</div>
 									<div class="button bprimary">
-										<a class="button-next" href="#"><p>Next</p></a>
+										<a class="button-next" href="#" class="click-track" data-trackinglabel="video-te-overview" {% if plat != "mobile" %} target="_blank" {% endif %}><p>Next</p></a>
 									</div>
 								</footer>
 							</div>
@@ -35,15 +35,16 @@ w1 = '''
 						
 						<div class="block b-50">
 							<div class="text-container">
+								{{content_blocks.${core-block-inapp-logo-primary}}}
 								<h3><div class="number-bubble">3</div> Add <span class="highlighter">Users</span> to your Groups</h3>
 								<p class="message">Once set up with Permissions, you can assign your users to one or more groups to make sure they hit the ground running.</p>
 								<p class="message">Setting up groups makes it super easy to manage your team.</p>
 								<footer>
-									<div class="button bsecondary">
-										<a class="button-prev"><p>Prev</p></a>
-									</div>
 									<div class="button bprimary">
-										<a class="button-next" href="#"><p>Next</p></a>
+										<a class="button-next" href="#" class="click-track" data-trackinglabel="video-te-overview"><p>Next</p></a>
+									</div>
+									<div class="button bsecondary">
+										<a class="button-close" href="#" class="click-track" data-trackinglabel="video-te-overview" {% if plat != "mobile" %} target="_blank" {% endif %}><p>Learn more</p></a>
 									</div>
 								</footer>
 							</div>
@@ -64,15 +65,16 @@ w1_scrolling = '''
 						
 						<div class="block b-50">
 							<div class="text-container">
+								{{content_blocks.${core-block-inapp-logo-primary}}}
 								<h3><div class="number-bubble">3</div> Add <span class="highlighter">Users</span> to your Groups</h3>
 								<p class="message">Once set up with Permissions, you can assign your users to one or more groups to make sure they hit the ground running.</p>
 								<p class="message">Setting up groups makes it super easy to manage your team.</p>
 								<footer>
 									<div class="button bsecondary">
-										<a class="button-prev"><p>Prev</p></a>
+										<a class="button-prev" class="click-track" data-trackinglabel="video-te-overview"><p>Prev</p></a>
 									</div>
 									<div class="button bprimary">
-										<a class="button-next" href="#"><p>Next</p></a>
+										<a class="button-next" href="#" class="click-track" data-trackinglabel="video-te-overview"><p>Next</p></a>
 									</div>
 								</footer>
 							</div>
@@ -87,7 +89,6 @@ w1_scrolling = '''
 '''
 
 w1_tooltips = '''
-				<!-- W1: STATIC IMAGE (TOOLTIPS LAUNCHER) (2-COL) -->
 				<div class="slick-slide" id="">
 					<div class="container ">
 						
@@ -130,10 +131,10 @@ w2 = '''
 								<p class="message hide-500">Every template you create, and every report you generate is <span class="highlighter">available on both web and mobile</span>.</p>
 								<footer>
 									<div class="button bprimary next">
-										<a class="button-next" href="#"><p>Next</p></a>
+										<a class="button-next" href="#" class="click-track" data-trackinglabel="video-te-overview"><p>Next</p></a>
 									</div>
 									<div class="button text-button">
-										<a class="button-close"><p>Got it!</p></a>
+										<a class="button-close" class="click-track" data-trackinglabel="video-te-overview"><p>Got it!</p></a>
 									</div>
 								</footer>
 							</div>
@@ -160,10 +161,10 @@ w41 = '''
 								<p class="message">iAuditor is an inspections that's used over 50,000 times a day in over 85 countries. Best of all, it's free for you to use.</p>
 								<footer>
 									<div class="button bsecondary prev">
-										<a class="button-prev" href="#"><p>Previous</p></a>
+										<a class="button-prev" href="#" class="click-track" data-trackinglabel="video-te-overview"><p>Previous</p></a>
 									</div>
 									<div class="button bprimary next">
-										<a class="button-next" href="#"><p>Get started</p></a>
+										<a class="button-next" href="#" class="click-track" data-trackinglabel="video-te-overview"><p>Get started</p></a>
 									</div>
 								</footer>
 							</div>
@@ -187,6 +188,7 @@ w42 = '''
 							<!--BLOCK 1-->
 							<div class="vertical-container">
 								<div class="text-container">
+									{{content_blocks.${core-block-inapp-logo-primary}}}
 									<h3>Welcome to Heads Up!</h3>
 									<p class="message">A simple way to inform, alert and connect with your team while gaining visibility over who's received your message.</p>
 									<div class="sc-video-wrapper">
@@ -196,10 +198,10 @@ w42 = '''
 									</div>
 									<footer>
 										<div class="button bprimary">
-											<a class="button-close"><p>+ Create a Heads Up</p></a>
+											<a class="button-close" class="click-track" data-trackinglabel="video-te-overview"><p>+ Create a Heads Up</p></a>
 										</div>
 										<div class="button bsecondary">
-											<a class="button-next"><p>Next</p></a>
+											<a class="button-next" class="click-track" data-trackinglabel="video-te-overview"><p>Next</p></a>
 										</div>
 									</footer>
 								</div>
@@ -218,6 +220,7 @@ w5 = '''
 							<!--BLOCK 1-->
 							<div class="vertical-container">
 								<div class="text-container">
+									{{content_blocks.${core-block-inapp-logo-primary}}} <br>
 									<span class="top-label highlighter">Issues</span>
 									<h3>What if a <span class="highlighter">near miss</span> occurs on site?</h3>
 									<p class="message">Near misses are significant. They can result in serious injury or damage.</p>
@@ -231,6 +234,7 @@ w5 = '''
 							<div class="vertical-container" style="display:none;">
 								<div class="v-nav nav-up button-scroll-prev image-prev"></div>
 								<div class="text-container">
+									{{content_blocks.${core-block-inapp-logo-primary}}} <br>
 									<span class="top-label highlighter hide-500">Issues</span>
 									<h3><span class="highlighter">Anyone</span> can log a near miss with their device</h3>
 									<p class="message">If a near miss occurs on site, the quickest and most efficient way of reporting is for the worker to create a new <strong>Near Miss issue</strong> with their device by hitting the <strong>(+)</strong> in the SafetyCulture app.</p>
@@ -243,16 +247,17 @@ w5 = '''
 							<div class="vertical-container" style="display:none;">
 								<div class="v-nav nav-up button-scroll-prev image-prev"></div>
 								<div class="text-container">
+									{{content_blocks.${core-block-inapp-logo-primary}}} <br>
 									<span class="top-label highlighter hide-500">Issues</span>
 									<h3>Gather essential data as soon as it happens</h3>
 									<p class="message">Workers can document the event while the details are still fresh, capturing photographic and video evidence, as well as geographic information.</p>
 									<p class="message">You can also configure your <strong>Near Miss workflow</strong> to automatically prompt workers with additional questions.</p>
 									<footer>
 										<div class="button bsecondary">
-											<a class="button-close"><p>Close</p></a>
+											<a class="button-close" class="click-track" data-trackinglabel="video-te-overview"><p>Close</p></a>
 										</div>
 										<div class="button bprimary bwindow">
-											<a class="button-next"><p>Configure your workflow</p></a>
+											<a class="button-next" class="click-track" data-trackinglabel="video-te-overview"><p>Configure your workflow</p></a>
 										</div>
 									</footer>
 								</div>
@@ -274,7 +279,7 @@ w5 = '''
 							</div>	
 						</div>
 					</div>
-				</div>			
+				</div>		
 '''
 
 
@@ -321,10 +326,10 @@ w61 = '''
 								</div>
 								<footer>
 									<div class="button bprimary grey">
-										<a class="confirm-select" href="#"><p>Next</p></a>
+										<a class="confirm-select" href="#" class="click-track" data-trackinglabel="video-te-overview"><p>Next</p></a>
 									</div>
 									<div class="button text-button">
-										<a class="button-next"><p>Skip</p></a>
+										<a class="button-next" class="click-track" data-trackinglabel="video-te-overview"><p>Skip</p></a>
 									</div>
 								</footer>
 							</div>
@@ -675,6 +680,7 @@ w81 = '''
 							<!--BLOCK 1-->
 							<div class="vertical-container">
 								<div class="text-container">
+									{{content_blocks.${core-block-inapp-logo-primary}}}
 									<h3>Never miss an inspection again with <span class="highlighter">Schedules</span></h3>
 									<p class="message">Set one-off or recurring reminders for those day-to-day inspections with Schedules.</p>
 									
@@ -1151,7 +1157,7 @@ w101 = '''
 							</div>
 						</div>
 					</div>
-				</div>	
+				</div>		
 '''
 
 w111 = '''
@@ -1161,6 +1167,7 @@ w111 = '''
 						
 						<div class="block b-100 light-purp">
 							<div class="text-container">
+								{{content_blocks.${core-block-inapp-logo-primary}}}
 								<h3>You're new around these parts &#128075;</h3>
 								<p class="message">Let us give you a quick guided tour.</p>
 								<footer>

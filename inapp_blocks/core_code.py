@@ -60,7 +60,8 @@ inapp_top2 = '''
 	<!-- Large sizing -- <div class="outer large ab-centering-div">-->
 	<!-- Wide sizing -- <div class="outer wide ab-centering-div">-->
 	<!-- Narrow sizing <div class="outer narrow ab-centering-div">-->
-	<!-- Small sizing <div class="outer small ab-centering-div">-->
+	<!-- Narrow sizing <div class="outer small ab-centering-div">-->
+
 		<div class="inner">
 			<a class="button-x button-close"><div class="x-img"></div></a>
 			<div class="sc-logo-holder"><div class="sc-logo-top"></div></div>
