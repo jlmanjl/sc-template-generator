@@ -39,10 +39,10 @@ p1_small = '''
 							</tr>
                             <tr>
 								<td align="left" style="padding: 10px 0px 0px 0px;" class="body-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-									<ul class="checkmark">
-										<li class="li-space">Donec blandit feugiat ligula.</li>
-										<li class="li-space">Donec blandit feugiat ligula.</li>
-										<li class="li-space">Donec blandit feugiat ligula.</li>
+									<ul>
+										<li>Donec blandit feugiat ligula.</li>
+										<li>Donec blandit feugiat ligula.</li>
+										<li>Donec blandit feugiat ligula.</li>
 									</ul>
 								</td>
 							</tr>
@@ -121,10 +121,10 @@ p1_wide = '''
 							</tr>
                             <tr>
 								<td align="left" style="padding: 10px 0px 0px 0px;" class="body-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-									<ul class="checkmark">
-										<li class="li-space">Donec blandit feugiat ligula.</li>
-										<li class="li-space">Donec blandit feugiat ligula.</li>
-										<li class="li-space">Donec blandit feugiat ligula.</li>
+									<ul>
+										<li>Donec blandit feugiat ligula.</li>
+										<li>Donec blandit feugiat ligula.</li>
+										<li>Donec blandit feugiat ligula.</li>
 									</ul>
 								</td>
 							</tr>

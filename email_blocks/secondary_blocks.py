@@ -114,10 +114,10 @@ s2 = '''
 										</tr>
 										<tr>
 											<td align="left" style="padding: 0px 0px 20px 0px;margin:0px;" class="body-text">Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
-												<ul class="checkmark">
-													<li class="li-space">Donec blandit feugiat ligula.</li>
-													<li class="li-space">Donec blandit feugiat ligula.</li>
-													<li class="li-space">Donec blandit feugiat ligula.</li>
+												<ul>
+													<li>Donec blandit feugiat ligula.</li>
+													<li>Donec blandit feugiat ligula.</li>
+													<li>Donec blandit feugiat ligula.</li>
 												</ul>
 											</td>
 										</tr>
@@ -355,10 +355,10 @@ s21 = '''
 										</tr>
 										<tr>
 											<td align="left" style="padding: 0px 0px 20px 0px;margin:0px;" class="body-text">Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
-												<ul class="checkmark">
-													<li class="li-space">Donec blandit feugiat ligula.</li>
-													<li class="li-space">Donec blandit feugiat ligula.</li>
-													<li class="li-space">Donec blandit feugiat ligula.</li>
+												<ul>
+													<li>Donec blandit feugiat ligula.</li>
+													<li>Donec blandit feugiat ligula.</li>
+													<li>Donec blandit feugiat ligula.</li>
 												</ul>
 											</td>
 										</tr>
@@ -596,10 +596,10 @@ s3 = '''
 										</tr>
 										<tr>
 											<td align="left" style="padding: 0px 0px 20px 0px;margin:0px;" class="body-text">Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
-												<ul class="checkmark">
-													<li class="li-space">Donec blandit feugiat ligula.</li>
-													<li class="li-space">Donec blandit feugiat ligula.</li>
-													<li class="li-space">Donec blandit feugiat ligula.</li>
+												<ul>
+													<li>Donec blandit feugiat ligula.</li>
+													<li>Donec blandit feugiat ligula.</li>
+													<li>Donec blandit feugiat ligula.</li>
 												</ul>
 											</td>
 										</tr>
